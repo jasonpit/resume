@@ -84,10 +84,13 @@ Dynamic **IT and Cloud Infrastructure Leader** with over 15 years of experience 
 - **MDM Systems:** JAMF, Intune, Workspace One, MUNKI, Puppet
 - **Desktop Provisioning and Management:** JAMF, Intune, Workspace One, Apple Business Manager, MUNKI, Puppet
 - **DevOps Tooling:** Jenkins, Bitbucket, GitHub, Azure DevOps
-- **AI/Automation:** OpenAI, Microsoft Power Platform, GitHub Copilot
-- **Pro Audio/Linux:** JACK, ALSA, PulseAudio, Carla, Low-Latency Real-Time Kernels
 - **Collaboration Platform Administration:** Microsoft 365, Slack, Zoom, Teams
+- **AI/Automation:** OpenAI, Microsoft Power Platform, GitHub Copilot
 - **User Experience Architecture:** macOS, Windows, Linux, iOS, iPadOS, Android (End-User Computing, Imaging, Zero Touch Deployments)
+- **Pro Audio:** Live and Studio Mixing Consoles, Performance, musical stage and live performaer micing
+- **Pro Audio Systems:** Extensive experience with Pro Tools, Logic Pro, Digital Performer, Nuendo/Cubase, Ableton Live, Melodyne, and Linux-based low-latency, real-time kernel optimizatied systems for digital audio, audio processing, music production, and sound design.
+- **Sound Design & Synthesis:** Extensive experience with a wide range of professional-grade software and hardware tools for sound design and audio processing.
+- **Recording Artist / Musician:** Skilled in guitar, bass, keyboards, and drums, with experience in live performance, recording, and studio production environments.
 
 ---
 
@@ -98,6 +101,8 @@ Dynamic **IT and Cloud Infrastructure Leader** with over 15 years of experience 
 - **Honors Graduate**
 - Focus: **Audio Engineering, Acoustics, Sound Design, and Music Production**
 - Built foundations of complex systems thinking critical to IT architecture and real-time system performance engineering.
+- After graduation, I spent 2.5 years teaching the MIDI Sampling class at MI's Recording Institute of Technology (RIT), a Level 2 advanced course for audio engineering students focused on advanced sampling, synthesis, sound design, and music production techniques. I Designed the curriculum based on the concept of musique concrète, blending the history and evolution of hardware and software tools into practical, hands-on learning.
+
 
 ## Professional Development
 
