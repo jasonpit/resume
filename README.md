@@ -5,7 +5,16 @@
 ---
 
 ## Executive Summary
-Dynamic **IT and Cloud Infrastructure Leader** with over 15 years of experience architecting and securing global enterprise environments. Expert in cloud strategy, cybersecurity, virtualization, large-scale operational transformation, and M&A integrations. Trusted advisor to executive leadership and Microsoft TAMs, managing complex ecosystems across seven Azure tenants and hundreds of cloud subscriptions. Demonstrated success achieving **$1M+ annual savings** through infrastructure optimization and modernization. Passionate **AI advocate** and automation pioneer, integrating AI solutions across cloud and security operations. Advanced **Linux engineer** specializing in virtualization, containerization, desktop-to-cloud infrastructure, and professional-grade **pro audio engineering and sound design** across all platforms.
+
+Dynamic **Full Stack IT, Cloud, and Infrastructure Leader** with over 15 years of experience architecting, administering, and securing complex global enterprise environments.  
+Expert in **cloud strategy, cybersecurity, full-stack infrastructure design, identity platforms, desktop engineering**, and **M&A integrations**.  
+Currently leading **global cloud operations** across seven Azure tenants and hundreds of subscriptions at Warner Bros. Discovery, partnering directly with executive leadership to drive operational excellence and innovation.
+
+Proven success delivering **$1M+ annual cloud savings** through infrastructure optimization and modernization.  
+Trusted **consultant, advisor, and solutions engineer** with deep expertise in **cloud computing, hybrid cloud architecture, local virtualization**, and **large-scale desktop and end-user computing provisioning, management, and design**.  
+Passionate **AI advocate and automation pioneer**, integrating AI-native solutions across cloud, security, and enterprise IT workflows.
+
+Advanced **Linux engineer** specializing in **virtualization, containerization**, real-time systems, and **professional-grade audio engineering and sound design** across all platforms.
 
 ---
 
@@ -15,10 +24,10 @@ Dynamic **IT and Cloud Infrastructure Leader** with over 15 years of experience 
 **Sr. Cloud Engineer – Global Infrastructure Core Technology**  
 *June 2024 – Present*
 - Lead Azure infrastructure strategy across seven tenants and hundreds of subscriptions globally.
-- Partner with Microsoft TAMs to drive operational excellence, security enhancements, and global cloud optimization.
-- Spearheaded Azure subscription validation initiative, achieving **$1M+ in annual cloud cost savings**.
-- Deployed global security agent baselines, dramatically improving enterprise security posture.
-- Integrated AI-driven automation across cloud management workflows, enhancing efficiency and resilience.
+- Partner with Microsoft TAMs, for WARA, and CSAM reviews to drive operational excellence, guide support engagements via the Services Hub when needed, and lead security enhancements and global cloud optimization initiatives.
+- Spearheaded Azure subscription resource validation initiative, achieving **$1M+ in annual cloud cost savings**.
+- Engineered and deployed automation scripts to locate, validate, and install security agents across hundreds of unmanaged cloud VMs globally, resolving critical CSO-identified gaps across multiple Azure tenants and subscriptions.
+- Advocated for and championed AI-driven automation across cloud management workflows, accelerating adoption, enhancing operational efficiency, and strengthening system resilience.
 
 **Manager, Solutions Engineering – Cloud Architecture**  
 *Sept 2023 – June 2024*
@@ -40,7 +49,7 @@ Dynamic **IT and Cloud Infrastructure Leader** with over 15 years of experience 
 - Led help desk and systems engineering teams across California and New York City locations, driving operational excellence and support innovation.
 - Architected and rebuilt Fullscreen’s IT infrastructure across both coasts, enhancing performance, reliability, and security.
 - Engineered VMware-based local data centers (LDCs), significantly reducing AWS dependency and optimizing cloud expenditure.
-- Delivered high-fidelity, Netflix-quality 1080p live streaming solutions for major brands such as Mattel, supporting 19+ simultaneous global events.
+- Architected and deployed a scalable AWS-based live streaming platform enabling Fullscreen’s teams to deliver 20+ simultaneous Netflix-quality 1080p YouTube streams globally for brands like Mattel, replacing unreliable local systems and supporting $10K+ per-stream revenue opportunities, while preserving full OBS control per stream.
 - Built Trusted Partner Network (TPN)-compliant secure video editing environments and developed new MDM workflows for a 600+ device macOS fleet, improving deployment speed and security.
 
 
@@ -56,7 +65,7 @@ Dynamic **IT and Cloud Infrastructure Leader** with over 15 years of experience 
 *Jul 2016 – Apr 2019*
 - Managed AWS, Azure, and Linux server operations supporting domain sales and fintech services.
 - Built ElasticSearch clusters on-premises, saving significant AWS spend.
-- Deployed an Amazon Connect-based call center platform as an early serverless pioneer.
+- Architected and deployed one of the first Amazon Connect-based call center platforms globally, replacing legacy 8x8 systems at 1/16th the cost. Integrated intelligent database-driven routing to prioritize high-value customers across domain sales and fintech services, dramatically boosting sales conversion rates while reducing staffing needs to a single agent.
 - Deployed ARM64 Bitcoin mining operations at industrial scale.
 
 ### Fox Television Animation (Family Guy, American Dad & The Clevelnad Show)
@@ -66,31 +75,60 @@ Dynamic **IT and Cloud Infrastructure Leader** with over 15 years of experience 
 - Directed IT infrastructure strategy for Fox Animation and Fox Television IT.
 - Architected desktop infrastructure and macOS deployment automation for a 350+ device Mac fleet, enhancing efficiency, consistency, and scalability across production environments.
 - Engineered Linux-based virtualized render farms reducing render time by 95%.
-- Modernized file sharing, backups, and enterprise storage systems.
-- Supported major network hardware ecosystems (Cisco, Palo Alto).
+- Engineered a cost-effective backup and storage solution in collaboration with Carbon Copy Cloner, automating local and offsite backups to an Amazon datacenter. Replaced a proposed $9K+ enterprise backup system with a customized solution for a few hundred dollars, overcoming complex file structure challenges unique to Fox Animation.
+- Supported network hardware ecosystems (Cisco, Palo Alto).
 
 ---
 
 ## Technical Skills
 
-- **Cloud Platforms:** Azure, AWS, Google Cloud, DigitalOcean
-- **Cloud Architecture and Solutions Engineering:** Azure, AWS, Google Cloud, Hybrid Cloud Strategies, Infrastructure Design
-- **Security and Compliance:** ISO27001, PCI, Zero Trust, Disaster Recovery
-- **Identity and Access Management:** Microsoft Entra ID, Azure AD, Active Directory
-- **Virtualization/Containers:** VMware, Proxmox, Docker, LXC, KVM, Kubernetes
-- **Linux Systems:** Debian, RHEL, Arch Linux (server, desktop, and pro audio)
-- **Server Administration:** Linux (all major distros), Windows Server (all versions)
-- **Scripting & Automation:** Bash, PowerShell, Terraform, HTML, PHP & Python fundamentals
-- **MDM Systems:** JAMF, Intune, Workspace One, MUNKI, Puppet
-- **Desktop Provisioning and Management:** JAMF, Intune, Workspace One, Apple Business Manager, MUNKI, Puppet
-- **DevOps Tooling:** Jenkins, Bitbucket, GitHub, Azure DevOps
-- **Collaboration Platform Administration:** Microsoft 365, Slack, Zoom, Teams
-- **AI/Automation:** OpenAI, Microsoft Power Platform, GitHub Copilot
-- **User Experience Architecture:** macOS, Windows, Linux, iOS, iPadOS, Android (End-User Computing, Imaging, Zero Touch Deployments)
-- **Pro Audio:** Live and Studio Mixing Consoles, Performance, musical stage and live performaer micing
-- **Pro Audio Systems:** Extensive experience with Pro Tools, Logic Pro, Digital Performer, Nuendo/Cubase, Ableton Live, Melodyne, and Linux-based low-latency, real-time kernel optimizatied systems for digital audio, audio processing, music production, and sound design.
-- **Sound Design & Synthesis:** Extensive experience with a wide range of professional-grade software and hardware tools for sound design and audio processing.
-- **Recording Artist / Musician:** Skilled in guitar, bass, keyboards, and drums, with experience in live performance, recording, and studio production environments.
+### Cloud Platforms & Architecture
+- **Platforms:** Azure, AWS, Google Cloud, DigitalOcean
+- **Architecture:** Hybrid Cloud Strategies, Infrastructure Design, Solutions Engineering
+
+### Security & Compliance
+- **Frameworks:** ISO27001, PCI Compliance, Zero Trust Architecture
+- **Practices:** Cloud Governance, Disaster Recovery Planning
+
+### Identity, Access & Authentication
+- Microsoft Entra ID, Azure Active Directory (Azure AD), Active Directory Federation Services (ADFS)
+
+### Virtualization & Containerization
+- VMware, Proxmox, Docker, Kubernetes, KVM, LXC
+
+### Linux Systems & Server Administration
+- Debian, RHEL, Arch Linux (Server/Desktop/Audio Engineering), Windows Server (all versions)
+
+### Automation, Scripting & DevOps
+- Bash, PowerShell, Terraform, GitHub Actions, Jenkins, Bitbucket, Azure DevOps
+- HTML, PHP, Python (fundamentals)
+
+### Device Management & End-User Computing
+- JAMF, Intune, Workspace One, Apple Business Manager, MUNKI, Puppet
+- macOS, Windows, Linux, iOS, iPadOS, Android (Zero-Touch Deployments)
+
+### Collaboration Tools Administration
+- Microsoft 365, Slack, Zoom, Microsoft Teams
+
+### AI & Automation
+- OpenAI APIs, Microsoft Power Platform, GitHub Copilot
+- AI-driven Workflow Automation and Process Enhancement
+
+### Audio Engineering & Sound Design
+- Pro Tools, Logic Pro, Digital Performer, Nuendo/Cubase, Ableton Live, Melodyne
+- Linux-based Low-Latency Systems, Live and Studio Sound Engineering
+- Sound Synthesis and Sampling Systems (Hardware and Software)
+
+---
+
+## Leadership & Project Management
+- Solutions Architecture and Technical Program Leadership
+- Agile Methodologies (Scrum, Kanban)
+- Global Cloud Migration and Optimization Programs
+- Vendor Relationship Management (Microsoft, AWS Solutions Teams, Carbon Copy Cloner)
+- Mentorship and Team Building (Training Junior Engineers, Cross-Functional Coaching)
+- Collaboration with Security and Compliance Teams (CSO, Homeland Security, FBI)
+
 
 ---
 
@@ -116,7 +154,7 @@ Dynamic **IT and Cloud Infrastructure Leader** with over 15 years of experience 
 ## Personal Interests
 
 - Integrating AI innovation across enterprise IT and infrastructure workflows
-- Developing Linux-based pro audio systems and containerized sound design environments
+- Developing Linux-based pro audio systems and sound design environments
 - Passionate about mentoring future IT engineers and building innovation-driven teams
 
 ---
