@@ -168,7 +168,7 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 
 - Integrating AI innovation across enterprise IT and infrastructure workflows
 - Developing Linux-based pro audio systems and sound design environments
-- Passionate about mentoring future IT engineers and building innovation-driven teams
+- Passionate about mentoring and driven by a relentless commitment to learning and innovation
 
 ---
 
