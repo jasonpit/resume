@@ -39,9 +39,9 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 - Managed a high-performing team of cloud engineers and architects, leading solutions engineering initiatives, major migration projects, and strategic infrastructure programs during organizational restructuring.
 - Transitioned to focus on global Azure cloud operations post-realignment, driving operational excellence, subscription governance, automation initiatives, and security enhancements across seven tenants and hundreds of subscriptions.
 - Partner with Microsoft TAMs, WARA, and CSAM teams to guide support escalations through Services Hub, deliver compliance improvements, and optimize tenant performance and security posture.
-- Spearheaded an Azure subscription resource validation initiative, achieving **$1M+ in annual cloud cost savings** through proactive cleanup, policy enforcement, and automation.
-- Engineered and deployed automation scripts to locate, validate, and install security agents across hundreds of unmanaged Azure VMs globally, resolving critical CSO-priority vulnerabilities.
-- Advocated for and championed **early adoption of AI-native solutions** across cloud management workflows, enhancing operational efficiency, resilience, and strategic innovation.
+- Spearheaded an Azure subscription resource validation initiative, achieving **$1M+ in annual cloud cost savings** through proactive cleanup, policy enforcement, and automation using **Terraform, Python, PowerShell, and Bash scripting**.
+- Engineered and deployed automation scripts in **Bash, PowerShell, and Python** to locate, validate, and install security agents across hundreds of unmanaged Azure VMs globally, resolving critical CSO-priority vulnerabilities.
+- Advocated for and championed early adoption of **AI-native solutions** across cloud management workflows, enhancing operational efficiency, resilience, and strategic innovation.
 - Supported M&A, divestiture, and cloud migration programs involving Microsoft 365, SharePoint Online, Power Platform, and hybrid cloud ecosystems, maintaining zero production downtime during critical transitions.
 - Led complex SharePoint and Power Platform global migrations with **zero production downtime**, ensuring seamless transitions for critical business units.
 - Oversaw the development of an M365 Outlook-based threat reporting solution, enabling rapid incident response in collaboration with WBD Security, FBI, and Homeland Security.
