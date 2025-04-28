@@ -49,6 +49,7 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 - Served as an essential engineering team member in Warner Bros. Discovery's rebranding and multi-cloud migration initiatives, collaborating directly with Microsoft engineers to drive successful infrastructure transitions.
 - Led a company-wide MDM migration from VMware Workspace One to Microsoft Intune.
 - Architected disaster recovery frameworks meeting CSO, legal, and compliance standards.
+- Leveraged Jira, Confluence, and Brinqa platforms to manage cloud security initiatives, vulnerability remediation workflows, infrastructure projects, and cross-functional collaboration across global teams.
 
 ### Fullscreen Media (Otter Media, Crunchyroll, Rooster Teeth) *(part of Otter Media, acquired by WarnerMedia/AT&T)*
 **Senior Systems Engineer / Manager**  
@@ -115,6 +116,8 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 ### Security & Compliance
 - **Frameworks:** ISO27001, PCI Compliance, Zero Trust Architecture
 - **Practices:** Cloud Governance, Disaster Recovery Planning
+- **Vulnerability Management:** Brinqa, Microsoft Defender for Endpoint
+- **Endpoint Protection & Patch Management:** SentinelOne Administration, Automox, Microsoft Defender for Endpoint
 
 ### Identity, Access & Authentication
 - Microsoft Entra ID, Azure Active Directory (Azure AD), Active Directory Federation Services (ADFS), Google Workplace, Open Directory. OKTA.
@@ -129,12 +132,15 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 - Bash, PowerShell, Terraform, GitHub Actions, Jenkins, Bitbucket, Azure DevOps
 - HTML, PHP, Python (fundamentals), Allways Learning..
 
+### Monitoring, Observability & Telemetry
+- Datadog, Zabbix, Azure Monitor, AWS CloudWatch, VictorOps, 
+
 ### Device Management & End-User Computing
 - JAMF, Intune, Workspace One, Apple Business Manager, MUNKI, Puppet
 - macOS, Windows, Linux, iOS, iPadOS, Android (Zero-Touch Deployments)
 
 ### Collaboration Tools Administration
-- Microsoft 365, Google Worplace, Slack, Zoom, Microsoft Teams, LastPass, Meta Workplace
+- Microsoft 365, Google Worplace, Slack, Zoom, Microsoft Teams, LastPass, Meta Workplace, Atlassian Suite (Jira, Confluence)
 
 ### AI & Automation
 - OpenAI APIs, Microsoft Power Platform, GitHub Copilot
