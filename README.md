@@ -1,3 +1,14 @@
+---
+title: "Jason Pittman"
+author: "Cloud Architecture | Full Stack IT Leadership | AI & Automation | Technical Program Management"
+geometry: margin=1in
+fontsize: 11pt
+mainfont: "Helvetica Neue"
+colorlinks: true
+linkcolor: blue
+toc: false
+---
+
 # Jason Pittman
 **Cloud Architecture | Full Stack IT Leadership | AI & Automation | Technical Program Management**
 
@@ -44,9 +55,11 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 *Apr 2019 – Apr 2021*
 - Led help desk and systems engineering teams across California and New York City locations, driving operational excellence and support innovation.
 - Architected and rebuilt Fullscreen’s IT infrastructure across both coasts, enhancing performance, reliability, and security.
+- Designed and deployed a full JAMF-based MacOps infrastructure, automating deployment, management, and security across a 600+ device macOS fleet.
+- Re-architected and modernized Active Directory infrastructure, improving authentication, security, and integration across cloud and on-premises systems.
 - Engineered VMware-based local data centers (LDCs), significantly reducing AWS dependency and optimizing cloud expenditure.
 - Architected and deployed a scalable AWS-based live streaming platform enabling Fullscreen’s teams to deliver 20+ simultaneous Netflix-quality 1080p YouTube streams globally for brands like Mattel, replacing unreliable local systems and supporting $10K+ per-stream revenue opportunities, while preserving full OBS control per stream.
-- Built Trusted Partner Network (TPN)-compliant secure video editing environments and developed new MDM workflows for a 600+ device macOS fleet, improving deployment speed and security.
+- Built Trusted Partner Network (TPN)-compliant secure video editing environments, ensuring content security compliance for global production workflows.
 
 
 ### Hermes BorderGuru, Greater Los Angeles Area
@@ -57,9 +70,9 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 - Implemented ISO27001 compliance frameworks enterprise-wide.
 
 ### .XYZ (Top-Level Domain Registry)
-**Systems Administrator II / Junior DevOps Engineer**  
+**Systems Administrator II / DevOps Engineer**  
 *Jul 2016 – Apr 2019*
-- Managed AWS, Azure, and Linux server operations supporting domain sales and fintech services.
+- Architected and deployed an enterprise-grade Active Directory infrastructure, unifying authentication and security across macOS, Windows, and Linux desktops, and integrating cloud and on-premises systems to enforce secure identity management practices.- Managed AWS, Azure, and Linux server operations supporting domain sales and fintech services.
 - Built ElasticSearch clusters on-premises, saving significant AWS spend.
 - Architected and deployed one of the first Amazon Connect-based call center platforms globally, replacing legacy 8x8 systems at 1/16th the cost. Integrated intelligent database-driven routing to prioritize high-value customers across domain sales and fintech services, dramatically boosting sales conversion rates while reducing staffing needs to a single agent.
 - Deployed ARM64 Bitcoin mining operations at industrial scale.
@@ -114,7 +127,7 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 
 ### Automation, Scripting & DevOps
 - Bash, PowerShell, Terraform, GitHub Actions, Jenkins, Bitbucket, Azure DevOps
-- HTML, PHP, Python (fundamentals)
+- HTML, PHP, Python (fundamentals), Allways Learning..
 
 ### Device Management & End-User Computing
 - JAMF, Intune, Workspace One, Apple Business Manager, MUNKI, Puppet
@@ -138,21 +151,22 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 - Solutions Architecture and Technical Program Leadership
 - Agile Methodologies (Scrum, Kanban)
 - Global Cloud Migration and Optimization Programs
-- Vendor Relationship Management (Microsoft, AWS Solutions Teams, Carbon Copy Cloner)
+- Vendor Relationship Management (Microsoft, AWS Solutions Teams)
 - Mentorship and Team Building (Training Junior Engineers, Cross-Functional Coaching)
-- Collaboration with Security and Compliance Teams (CSO, Homeland Security, FBI)
 
 
 ---
 
 ## Education
 
-**Musicians Institute**, Los Angeles, CA
+**Musicians Institute**, Los Angeles, CA  
 *1999 – 2001*  
-- **Honors Graduate**
-- Focus: **Audio Engineering, Acoustics, Sound Design, and Music Production**
-- Built foundations of complex systems thinking critical to IT architecture and real-time system performance engineering.
-- After graduation, I spent 2.5 years teaching the MIDI Sampling class at MI's Recording Institute of Technology (RIT), a Level 2 advanced course for audio engineering students focused on advanced sampling, synthesis, sound design, and music production techniques. I Designed the curriculum based on the concept of musique concrète, blending the history and evolution of hardware and software tools into practical, hands-on learning.
+- **Honors Graduate** – Recording Institute of Technology (RIT) Program
+- Initially enrolled in a broad interdisciplinary program allowing coursework across **BIT (Bass Institute of Technology)**, **KIT (Keyboard Institute of Technology)**, **GIT (Guitar Institute of Technology)**, **VIT (Vocal Institute of Technology)** divisions, building a comprehensive foundation in music theory, performance, production, and technical systems.
+- After 1.5 years of cross-disciplinary study, transitioned fully into the **Recording Institute of Technology (RIT)** to focus on advanced **Audio Engineering, Acoustics, Signal Flow, Sound Design, Synthesis, Recording Techniques, Studio Integration, and Music Production**.
+- Developed early expertise in **complex system architecture**, real-time signal processing, multi-platform hardware/software integration, and technical project workflows — foundational skills later applied to IT infrastructure, cloud engineering, and real-time system performance optimization.
+- After graduation, selected to design and teach the advanced **MIDI Sampling & Electronic Music Production** course for Level 2 RIT students.
+- Authored an original curriculum blending **musique concrète principles**, **synthesis technologies**, and **studio hardware/software integration**, combining historical methodologies with modern production tools to develop advanced creative and technical problem-solving skills.
 
 
 ## Professional Development
