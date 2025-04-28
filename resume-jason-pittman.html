@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="jason-pittman">Jason Pittman</h1>
+<p><strong>Cloud Architecture | Full Stack IT Leadership | AI &amp; Automation | Technical Program Management</strong></p>
+<p>📞 <strong>213-590-2801</strong> | 📧 <strong>jasonpit@mac.com</strong> | 🌐 <a href="https://www.linkedin.com/in/jason-pittman-a1b34a1a/">LinkedIn</a></p>
+<hr>
+<h2 id="executive-summary">Executive Summary</h2>
+<p>Dynamic <strong>Full Stack IT, Cloud, and Infrastructure Leader</strong> with over 15 years of experience architecting, administering, securing, and optimizing complex global enterprise environments.<br>
+Expert in <strong>cloud strategy, cybersecurity, full-stack infrastructure design, identity platforms, technical program leadership</strong>, and <strong>M&amp;A integrations</strong>.<br>
+Currently leading <strong>global cloud operations and strategic initiatives</strong> across seven Azure tenants and hundreds of subscriptions at Warner Bros. Discovery, partnering directly with executive leadership to drive operational excellence, innovation, and cross-functional collaboration.</p>
+<p>Proven success delivering <strong>$1M+ annual cloud savings</strong> through infrastructure optimization, governance, and modernization programs.<br>
+Trusted <strong>consultant, advisor, and solutions engineer</strong> with deep expertise in <strong>cloud computing, hybrid cloud architecture, local virtualization</strong>, and <strong>large-scale desktop and end-user computing provisioning, management, and design</strong>.<br>
+Passionate <strong>AI advocate and automation pioneer</strong>, accelerating enterprise adoption of AI-native solutions across cloud management, security, and operational workflows.</p>
+<p>Advanced <strong>Linux engineer</strong> specializing in <strong>virtualization, containerization</strong>, real-time systems, and <strong>professional-grade audio engineering and sound design</strong> across all platforms.</p>
+<hr>
+<h2 id="professional-experience">Professional Experience</h2>
+<h3 id="warner-bros-discovery-los-angeles-ca">Warner Bros. Discovery, Los Angeles, CA</h3>
+<p><strong>Senior Cloud Engineer / Acting Solutions Engineering Manager</strong><br>
+<em>Apr 2021 – Present</em></p>
+<ul>
+<li>Managed a high-performing team of cloud engineers and architects, leading solutions engineering initiatives, major migration projects, and strategic infrastructure programs during organizational restructuring.</li>
+<li>Transitioned to focus on global Azure cloud operations post-realignment, driving operational excellence, subscription governance, automation initiatives, and security enhancements across seven tenants and hundreds of subscriptions.</li>
+<li>Partner with Microsoft TAMs, WARA, and CSAM teams to guide support escalations through Services Hub, deliver compliance improvements, and optimize tenant performance and security posture.</li>
+<li>Spearheaded an Azure subscription resource validation initiative, achieving <strong>$1M+ in annual cloud cost savings</strong> through proactive cleanup, policy enforcement, and automation.</li>
+<li>Engineered and deployed automation scripts to locate, validate, and install security agents across hundreds of unmanaged Azure VMs globally, resolving critical CSO-priority vulnerabilities.</li>
+<li>Advocated for and championed <strong>early adoption of AI-native solutions</strong> across cloud management workflows, enhancing operational efficiency, resilience, and strategic innovation.</li>
+<li>Supported M&amp;A, divestiture, and cloud migration programs involving Microsoft 365, SharePoint Online, Power Platform, and hybrid cloud ecosystems, maintaining zero production downtime during critical transitions.</li>
+<li>Led complex SharePoint and Power Platform global migrations with <strong>zero production downtime</strong>, ensuring seamless transitions for critical business units.</li>
+<li>Oversaw the development of an M365 Outlook-based threat reporting solution, enabling rapid incident response in collaboration with WBD Security, FBI, and Homeland Security.</li>
+<li>Managed hybrid cloud ecosystems across AWS, Azure, Active Directory, and Office 365.</li>
+<li>Served as an essential engineering team member in Warner Bros. Discovery's rebranding and multi-cloud migration initiatives, collaborating directly with Microsoft engineers to drive successful infrastructure transitions.</li>
+<li>Led a company-wide MDM migration from VMware Workspace One to Microsoft Intune.</li>
+<li>Architected disaster recovery frameworks meeting CSO, legal, and compliance standards.</li>
+</ul>
+<h3 id="fullscreen-media-otter-media-crunchyroll-rooster-teeth-part-of-otter-media-acquired-by-warnermediaatt">Fullscreen Media (Otter Media, Crunchyroll, Rooster Teeth) <em>(part of Otter Media, acquired by WarnerMedia/AT&amp;T)</em></h3>
+<p><strong>Senior Systems Engineer / Manager</strong><br>
+<em>Apr 2019 – Apr 2021</em></p>
+<ul>
+<li>Led help desk and systems engineering teams across California and New York City locations, driving operational excellence and support innovation.</li>
+<li>Architected and rebuilt Fullscreen’s IT infrastructure across both coasts, enhancing performance, reliability, and security.</li>
+<li>Engineered VMware-based local data centers (LDCs), significantly reducing AWS dependency and optimizing cloud expenditure.</li>
+<li>Architected and deployed a scalable AWS-based live streaming platform enabling Fullscreen’s teams to deliver 20+ simultaneous Netflix-quality 1080p YouTube streams globally for brands like Mattel, replacing unreliable local systems and supporting $10K+ per-stream revenue opportunities, while preserving full OBS control per stream.</li>
+<li>Built Trusted Partner Network (TPN)-compliant secure video editing environments and developed new MDM workflows for a 600+ device macOS fleet, improving deployment speed and security.</li>
+</ul>
+<h3 id="hermes-borderguru-greater-los-angeles-area">Hermes BorderGuru, Greater Los Angeles Area</h3>
+<p><strong>Consultant, Cloud and IT Infrastructure</strong><br>
+<em>Jan 2017 – 2021</em></p>
+<ul>
+<li>Led cloud and IT full-stack infrastructure across U.S. and Mexico.</li>
+<li>Designed Amazon Connect call centers for e-commerce brands.</li>
+<li>Implemented ISO27001 compliance frameworks enterprise-wide.</li>
+</ul>
+<h3 id="xyz-top-level-domain-registry">.XYZ (Top-Level Domain Registry)</h3>
+<p><strong>Systems Administrator II / Junior DevOps Engineer</strong><br>
+<em>Jul 2016 – Apr 2019</em></p>
+<ul>
+<li>Managed AWS, Azure, and Linux server operations supporting domain sales and fintech services.</li>
+<li>Built ElasticSearch clusters on-premises, saving significant AWS spend.</li>
+<li>Architected and deployed one of the first Amazon Connect-based call center platforms globally, replacing legacy 8x8 systems at 1/16th the cost. Integrated intelligent database-driven routing to prioritize high-value customers across domain sales and fintech services, dramatically boosting sales conversion rates while reducing staffing needs to a single agent.</li>
+<li>Deployed ARM64 Bitcoin mining operations at industrial scale.</li>
+</ul>
+<h3 id="fox-television-animation-family-guy-american-dad--the-clevelnad-show">Fox Television Animation (Family Guy, American Dad &amp; The Clevelnad Show)</h3>
+<p><strong>Senior Systems Administrator / Manager</strong><br>
+<em>Jun 2008 – Jul 2016</em></p>
+<ul>
+<li>Led a team of four systems administrators, overseeing support operations and infrastructure enhancements across production environments.</li>
+<li>Directed IT infrastructure strategy for Fox Animation and Fox Television IT.</li>
+<li>Architected desktop infrastructure and macOS deployment automation for a 350+ device Mac fleet, enhancing efficiency, consistency, and scalability across production environments.</li>
+<li>Engineered Linux-based virtualized render farms reducing render time by 95%.</li>
+<li>Engineered a cost-effective backup and storage solution in collaboration with Carbon Copy Cloner, automating local and offsite backups to an Amazon datacenter. Replaced a proposed $9K+ enterprise backup system with a customized solution for a few hundred dollars, overcoming complex file structure challenges unique to Fox Animation.</li>
+<li>Supported network hardware ecosystems (Cisco, Palo Alto).</li>
+</ul>
+<hr>
+<h2 id="earlier-career-highlights">Earlier Career Highlights</h2>
+<p><strong>B&amp;C Design | Beuniki Jewelry</strong> – Partner, Operations &amp; Cloud Infrastructure (2012–2021)</p>
+<ul>
+<li>Co-founded and scaled an online jewelry business to $1.5M/year in sales, managing full-stack cloud infrastructure, e-commerce platforms (Shopify, WordPress), and global marketing operations.</li>
+<li>Directed a global team of influencers and executed high-impact digital marketing campaigns across Instagram, Twitter, and Facebook.</li>
+</ul>
+<p><strong>Voyager Productions (Cosmos: A Spacetime Odyssey)</strong> – Consultant, IT Infrastructure (2012)</p>
+<ul>
+<li>Designed IT infrastructure solutions for production of &quot;Cosmos: A Spacetime Odyssey,&quot; supporting high-performance video editing and rendering environments.</li>
+</ul>
+<p><strong>Apple, Inc.</strong> – Mac Genius (2004–2007)</p>
+<ul>
+<li>Delivered certified hardware and software support for Mac systems at Apple retail, specializing in customer-facing technical troubleshooting and repair services.</li>
+</ul>
+<p><strong>Musicians Institute (Recording Institute of Technology)</strong> – Instructor, MIDI Sampling and Electronic Music Production (2002–2004)</p>
+<ul>
+<li>Designed and taught an advanced curriculum in electronic music production, sampling, and synthesis for Level 2 audio engineering students, blending technical systems knowledge with creative production techniques.</li>
+</ul>
+<h2 id="technical-skills">Technical Skills</h2>
+<h3 id="cloud-platforms--architecture">Cloud Platforms &amp; Architecture</h3>
+<ul>
+<li><strong>Platforms:</strong> Azure, AWS, Google Cloud, DigitalOcean</li>
+<li><strong>Architecture:</strong> Hybrid Cloud Strategies, Infrastructure Design, Solutions Engineering</li>
+</ul>
+<h3 id="security--compliance">Security &amp; Compliance</h3>
+<ul>
+<li><strong>Frameworks:</strong> ISO27001, PCI Compliance, Zero Trust Architecture</li>
+<li><strong>Practices:</strong> Cloud Governance, Disaster Recovery Planning</li>
+</ul>
+<h3 id="identity-access--authentication">Identity, Access &amp; Authentication</h3>
+<ul>
+<li>Microsoft Entra ID, Azure Active Directory (Azure AD), Active Directory Federation Services (ADFS), Google Workplace, Open Directory. OKTA.</li>
+</ul>
+<h3 id="virtualization--containerization">Virtualization &amp; Containerization</h3>
+<ul>
+<li>VMware, Proxmox, Docker, Kubernetes, KVM, LXC</li>
+</ul>
+<h3 id="linux-systems--server-administration">Linux Systems &amp; Server Administration</h3>
+<ul>
+<li>Debian, RHEL, Arch Linux (Server/Desktop/Audio Engineering), Windows Server (all versions)</li>
+</ul>
+<h3 id="automation-scripting--devops">Automation, Scripting &amp; DevOps</h3>
+<ul>
+<li>Bash, PowerShell, Terraform, GitHub Actions, Jenkins, Bitbucket, Azure DevOps</li>
+<li>HTML, PHP, Python (fundamentals)</li>
+</ul>
+<h3 id="device-management--end-user-computing">Device Management &amp; End-User Computing</h3>
+<ul>
+<li>JAMF, Intune, Workspace One, Apple Business Manager, MUNKI, Puppet</li>
+<li>macOS, Windows, Linux, iOS, iPadOS, Android (Zero-Touch Deployments)</li>
+</ul>
+<h3 id="collaboration-tools-administration">Collaboration Tools Administration</h3>
+<ul>
+<li>Microsoft 365, Google Worplace, Slack, Zoom, Microsoft Teams, LastPass, Meta Workplace</li>
+</ul>
+<h3 id="ai--automation">AI &amp; Automation</h3>
+<ul>
+<li>OpenAI APIs, Microsoft Power Platform, GitHub Copilot</li>
+<li>AI-driven Workflow Automation and Process Enhancement</li>
+</ul>
+<h3 id="audio-engineering--sound-design">Audio Engineering &amp; Sound Design</h3>
+<ul>
+<li>Pro Tools, Logic Pro, Digital Performer, Nuendo/Cubase, Ableton Live, Melodyne</li>
+<li>Linux-based Low-Latency Systems, Live and Studio Sound Engineering</li>
+<li>Sound Synthesis and Sampling Systems (Hardware and Software)</li>
+</ul>
+<hr>
+<h2 id="leadership--project-management">Leadership &amp; Project Management</h2>
+<ul>
+<li>Solutions Architecture and Technical Program Leadership</li>
+<li>Agile Methodologies (Scrum, Kanban)</li>
+<li>Global Cloud Migration and Optimization Programs</li>
+<li>Vendor Relationship Management (Microsoft, AWS Solutions Teams, Carbon Copy Cloner)</li>
+<li>Mentorship and Team Building (Training Junior Engineers, Cross-Functional Coaching)</li>
+<li>Collaboration with Security and Compliance Teams (CSO, Homeland Security, FBI)</li>
+</ul>
+<hr>
+<h2 id="education">Education</h2>
+<p><strong>Musicians Institute</strong>, Los Angeles, CA
+<em>1999 – 2001</em></p>
+<ul>
+<li><strong>Honors Graduate</strong></li>
+<li>Focus: <strong>Audio Engineering, Acoustics, Sound Design, and Music Production</strong></li>
+<li>Built foundations of complex systems thinking critical to IT architecture and real-time system performance engineering.</li>
+<li>After graduation, I spent 2.5 years teaching the MIDI Sampling class at MI's Recording Institute of Technology (RIT), a Level 2 advanced course for audio engineering students focused on advanced sampling, synthesis, sound design, and music production techniques. I Designed the curriculum based on the concept of musique concrète, blending the history and evolution of hardware and software tools into practical, hands-on learning.</li>
+</ul>
+<h2 id="professional-development">Professional Development</h2>
+<ul>
+<li>Microsoft ESI: Azure AZ104, SC300, AZ1001, AZ2003, Dynamics CRM &amp; ERP Fundamentals <em>(Completed April 2024)</em></li>
+<li>Apple Certified Macintosh Technician (ACMT), Apple Certified Portable Technician (ACPT)</li>
+<li>PowerShell: Automating Administration <em>(LinkedIn Learning, 2021)</em></li>
+<li>Ongoing leadership, cloud computing, Linux engineering, web and application development, and AI/ML specialization</li>
+</ul>
+<hr>
+<h2 id="personal-interests">Personal Interests</h2>
+<ul>
+<li>Integrating AI innovation across enterprise IT and infrastructure workflows</li>
+<li>Developing Linux-based pro audio systems and sound design environments</li>
+<li>Passionate about mentoring and driven by a relentless commitment to learning and innovation</li>
+</ul>
+<hr>
+
+</body>
+</html>

@@ -104,7 +104,7 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 - **Practices:** Cloud Governance, Disaster Recovery Planning
 
 ### Identity, Access & Authentication
-- Microsoft Entra ID, Azure Active Directory (Azure AD), Active Directory Federation Services (ADFS)
+- Microsoft Entra ID, Azure Active Directory (Azure AD), Active Directory Federation Services (ADFS), Google Workplace, Open Directory. OKTA.
 
 ### Virtualization & Containerization
 - VMware, Proxmox, Docker, Kubernetes, KVM, LXC
@@ -121,7 +121,7 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 - macOS, Windows, Linux, iOS, iPadOS, Android (Zero-Touch Deployments)
 
 ### Collaboration Tools Administration
-- Microsoft 365, Slack, Zoom, Microsoft Teams
+- Microsoft 365, Google Worplace, Slack, Zoom, Microsoft Teams, LastPass, Meta Workplace
 
 ### AI & Automation
 - OpenAI APIs, Microsoft Power Platform, GitHub Copilot
@@ -147,7 +147,7 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 
 ## Education
 
-**Musicians Institute**, Los Angeles, CA  
+**Musicians Institute**, Los Angeles, CA
 *1999 – 2001*  
 - **Honors Graduate**
 - Focus: **Audio Engineering, Acoustics, Sound Design, and Music Production**
