@@ -1,4 +1,5 @@
 # Jason Pittman
+**Cloud Architecture | Full Stack IT Leadership | AI & Automation | Technical Program Management**
 
 📞 **213-590-2801** | 📧 **jasonpit@mac.com** | 🌐 [LinkedIn](https://www.linkedin.com/in/jason-pittman-a1b34a1a/)
 
@@ -6,13 +7,13 @@
 
 ## Executive Summary
 
-Dynamic **Full Stack IT, Cloud, and Infrastructure Leader** with over 15 years of experience architecting, administering, and securing complex global enterprise environments.  
-Expert in **cloud strategy, cybersecurity, full-stack infrastructure design, identity platforms, desktop engineering**, and **M&A integrations**.  
-Currently leading **global cloud operations** across seven Azure tenants and hundreds of subscriptions at Warner Bros. Discovery, partnering directly with executive leadership to drive operational excellence and innovation.
+Dynamic **Full Stack IT, Cloud, and Infrastructure Leader** with over 15 years of experience architecting, administering, securing, and optimizing complex global enterprise environments.  
+Expert in **cloud strategy, cybersecurity, full-stack infrastructure design, identity platforms, technical program leadership**, and **M&A integrations**.  
+Currently leading **global cloud operations and strategic initiatives** across seven Azure tenants and hundreds of subscriptions at Warner Bros. Discovery, partnering directly with executive leadership to drive operational excellence, innovation, and cross-functional collaboration.
 
-Proven success delivering **$1M+ annual cloud savings** through infrastructure optimization and modernization.  
+Proven success delivering **$1M+ annual cloud savings** through infrastructure optimization, governance, and modernization programs.  
 Trusted **consultant, advisor, and solutions engineer** with deep expertise in **cloud computing, hybrid cloud architecture, local virtualization**, and **large-scale desktop and end-user computing provisioning, management, and design**.  
-Passionate **AI advocate and automation pioneer**, integrating AI-native solutions across cloud, security, and enterprise IT workflows.
+Passionate **AI advocate and automation pioneer**, accelerating enterprise adoption of AI-native solutions across cloud management, security, and operational workflows.
 
 Advanced **Linux engineer** specializing in **virtualization, containerization**, real-time systems, and **professional-grade audio engineering and sound design** across all platforms.
 
@@ -21,29 +22,24 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 ## Professional Experience
 
 ### Warner Bros. Discovery, Los Angeles, CA
-**Sr. Cloud Engineer – Global Infrastructure Core Technology**  
-*June 2024 – Present*
-- Lead Azure infrastructure strategy across seven tenants and hundreds of subscriptions globally.
-- Partner with Microsoft TAMs, for WARA, and CSAM reviews to drive operational excellence, guide support engagements via the Services Hub when needed, and lead security enhancements and global cloud optimization initiatives.
-- Spearheaded Azure subscription resource validation initiative, achieving **$1M+ in annual cloud cost savings**.
-- Engineered and deployed automation scripts to locate, validate, and install security agents across hundreds of unmanaged cloud VMs globally, resolving critical CSO-identified gaps across multiple Azure tenants and subscriptions.
-- Advocated for and championed AI-driven automation across cloud management workflows, accelerating adoption, enhancing operational efficiency, and strengthening system resilience.
+**Senior Cloud Engineer / Acting Solutions Engineering Manager**  
+*Apr 2021 – Present*
 
-**Manager, Solutions Engineering – Cloud Architecture**  
-*Sept 2023 – June 2024*
-- Directed a high-performing global team of senior engineers, architects, and analysts across cloud infrastructure, solutions engineering, and security initiatives.
+- Managed a high-performing team of cloud engineers and architects, leading solutions engineering initiatives, major migration projects, and strategic infrastructure programs during organizational restructuring.
+- Transitioned to focus on global Azure cloud operations post-realignment, driving operational excellence, subscription governance, automation initiatives, and security enhancements across seven tenants and hundreds of subscriptions.
+- Partner with Microsoft TAMs, WARA, and CSAM teams to guide support escalations through Services Hub, deliver compliance improvements, and optimize tenant performance and security posture.
+- Spearheaded an Azure subscription resource validation initiative, achieving **$1M+ in annual cloud cost savings** through proactive cleanup, policy enforcement, and automation.
+- Engineered and deployed automation scripts to locate, validate, and install security agents across hundreds of unmanaged Azure VMs globally, resolving critical CSO-priority vulnerabilities.
+- Advocated for and championed **early adoption of AI-native solutions** across cloud management workflows, enhancing operational efficiency, resilience, and strategic innovation.
+- Supported M&A, divestiture, and cloud migration programs involving Microsoft 365, SharePoint Online, Power Platform, and hybrid cloud ecosystems, maintaining zero production downtime during critical transitions.
 - Led complex SharePoint and Power Platform global migrations with **zero production downtime**, ensuring seamless transitions for critical business units.
 - Oversaw the development of an M365 Outlook-based threat reporting solution, enabling rapid incident response in collaboration with WBD Security, FBI, and Homeland Security.
-- Championed the integration of AI-native and cloud-native solutions across enterprise systems, accelerating innovation and operational resilience.
-
-**Senior Cloud Engineer**  
-*Apr 2021 – Sept 2023*
 - Managed hybrid cloud ecosystems across AWS, Azure, Active Directory, and Office 365.
 - Served as an essential engineering team member in Warner Bros. Discovery's rebranding and multi-cloud migration initiatives, collaborating directly with Microsoft engineers to drive successful infrastructure transitions.
 - Led a company-wide MDM migration from VMware Workspace One to Microsoft Intune.
 - Architected disaster recovery frameworks meeting CSO, legal, and compliance standards.
 
-### Fullscreen Media (Otter Media, Crunchyroll, Rooster Teeth)
+### Fullscreen Media (Otter Media, Crunchyroll, Rooster Teeth) *(part of Otter Media, acquired by WarnerMedia/AT&T)*
 **Senior Systems Engineer / Manager**  
 *Apr 2019 – Apr 2021*
 - Led help desk and systems engineering teams across California and New York City locations, driving operational excellence and support innovation.
@@ -79,6 +75,23 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 - Supported network hardware ecosystems (Cisco, Palo Alto).
 
 ---
+
+## Earlier Career Highlights
+
+**B&C Design | Beuniki Jewelry** – Partner, Operations & Cloud Infrastructure (2012–2021)  
+- Co-founded and scaled an online jewelry business to $1.5M/year in sales, managing full-stack cloud infrastructure, e-commerce platforms (Shopify, WordPress), and global marketing operations.  
+- Directed a global team of influencers and executed high-impact digital marketing campaigns across Instagram, Twitter, and Facebook.
+
+**Voyager Productions (Cosmos: A Spacetime Odyssey)** – Consultant, IT Infrastructure (2012)  
+- Designed IT infrastructure solutions for production of "Cosmos: A Spacetime Odyssey," supporting high-performance video editing and rendering environments.
+
+**Apple, Inc.** – Mac Genius (2004–2007)  
+- Delivered certified hardware and software support for Mac systems at Apple retail, specializing in customer-facing technical troubleshooting and repair services.
+
+**Musicians Institute (Recording Institute of Technology)** – Instructor, MIDI Sampling and Electronic Music Production (2002–2004)  
+- Designed and taught an advanced curriculum in electronic music production, sampling, and synthesis for Level 2 audio engineering students, blending technical systems knowledge with creative production techniques.
+
+
 
 ## Technical Skills
 
@@ -158,3 +171,4 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 - Passionate about mentoring future IT engineers and building innovation-driven teams
 
 ---
+
