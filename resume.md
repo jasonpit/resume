@@ -8,7 +8,7 @@ toc: false
 ---
 
 # Jason Pittman
-**Cloud Architecture | Full Stack IT Leadership | AI & Automation | Technical Program Management**
+**Cloud Architecture | Full Stack IT Leadership | AI & Automation | Technology Demand Planning**
 
 **213-590-2801** | **jasonpit@mac.com** | [LinkedIn](https://www.linkedin.com/in/jason-pittman-a1b34a1a/) | [GitHub](https://github.com/jasonpit)
 
@@ -198,8 +198,7 @@ Advanced Linux engineer with deep expertise in virtualization, containerization,
 
 ---
 
-## Leadership & Project Management "Technology demand planning"
-- Solutions Architecture and Technical Program Leadership
+- Solutions Architecture and Technology Demand Planning
 - Agile Methodologies (Scrum, Kanban)
 - Global Cloud Migration and Optimization Programs
 - Vendor Relationship Management (Microsoft, AWS Solutions Teams)
