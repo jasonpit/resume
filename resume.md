@@ -27,7 +27,8 @@ Trusted **consultant, advisor, and solutions engineer** with deep expertise in *
 
 Early adopter and internal advocate for **AI-native enterprise solutions**, including contributions to pre-release testing of Microsoft 365 Copilot and broader AI-enhanced cloud management workflows.
 
-- Advanced Linux engineer with deep expertise in virtualization, containerization, and real-time system performance — with cross-platform proficiency in macOS and Windows environments.
+Advanced Linux engineer with deep expertise in virtualization, containerization, and real-time system performance — with cross-platform proficiency in macOS and Windows environments.
+
 ---
 
 ## Professional Experience
@@ -197,7 +198,7 @@ Early adopter and internal advocate for **AI-native enterprise solutions**, incl
 
 ---
 
-## Leadership & Project Management
+## Leadership & Project Management "Technology demand planning"
 - Solutions Architecture and Technical Program Leadership
 - Agile Methodologies (Scrum, Kanban)
 - Global Cloud Migration and Optimization Programs
