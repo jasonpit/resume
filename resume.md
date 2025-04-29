@@ -53,7 +53,7 @@ Advanced Linux engineer with deep expertise in virtualization, containerization,
 
 - Led complex SharePoint and Power Platform global migrations with **zero production downtime**, ensuring seamless transitions for critical business units.
 
-- Oversaw the development of an M365 Outlook-based threat reporting solution, enabling rapid incident response in collaboration with WBD Security, FBI, and Homeland Security.
+- Collaborated with internal teams and Microsoft support to develop an M365 Outlook-based physical threat reporting button, enabling employees to escalate serious incidents (e.g., bomb or death threats) to WBD Security. The solution automatically formats captured data for rapid intake by physical security teams and downstream escalation to Homeland Security and the FBI.
 
 - Collaborated with a cross-functional engineering team on early enterprise testing and rollout planning for Microsoft 365 Copilot, contributing to AI-native adoption strategies across cloud and collaboration workflows.
 
@@ -79,7 +79,7 @@ Advanced Linux engineer with deep expertise in virtualization, containerization,
 
 - Spearheaded a cost-saving initiative migrating VIP telephony services from MegaPath to Zoom Phone by engineering hardware reconfiguration workflows, enabling full system reuse and delivering major operational savings.
 
-- Designed and deployed a full JAMF-based MacOps infrastructure, automating deployment, management, and security across a 600+ device macOS fleet.
+- Designed and deployed a full JAMF-based MacOps infrastructure with zero-touch provisioning, automating deployment, management, and security across a 600+ device macOS fleet.
 
 - Re-architected and modernized Active Directory infrastructure, improving authentication, security, and integration across cloud and on-premises systems.
 
