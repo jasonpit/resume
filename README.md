@@ -1,9 +1,7 @@
 ---
-title: "Jason Pittman"
-author: "Cloud Architecture | Full Stack IT Leadership | AI & Automation | Technical Program Management"
 geometry: margin=1in
 fontsize: 11pt
-mainfont: "Helvetica Neue"
+mainfont: "Helvetica"
 colorlinks: true
 linkcolor: blue
 toc: false
@@ -12,7 +10,7 @@ toc: false
 # Jason Pittman
 **Cloud Architecture | Full Stack IT Leadership | AI & Automation | Technical Program Management**
 
-📞 **213-590-2801** | 📧 **jasonpit@mac.com** | 🌐 [LinkedIn](https://www.linkedin.com/in/jason-pittman-a1b34a1a/)
+**213-590-2801** | **jasonpit@mac.com** | [LinkedIn](https://www.linkedin.com/in/jason-pittman-a1b34a1a/) | [GitHub](https://github.com/jasonpit)
 
 ---
 
@@ -24,7 +22,7 @@ Currently leading **global cloud operations and strategic initiatives** across s
 
 Proven success delivering **$1M+ annual cloud savings** through infrastructure optimization, governance, and modernization programs.  
 Trusted **consultant, advisor, and solutions engineer** with deep expertise in **cloud computing, hybrid cloud architecture, local virtualization**, and **large-scale desktop and end-user computing provisioning, management, and design**.  
-Passionate **AI advocate and automation pioneer**, accelerating enterprise adoption of AI-native solutions across cloud management, security, and operational workflows.
+Passionate **AI advocate and automation pioneer**, accelerating enterprise adoption of {AI-native} solutions across cloud management, security, and operational workflows.
 
 Advanced **Linux engineer** specializing in **virtualization, containerization**, real-time systems, and **professional-grade audio engineering and sound design** across all platforms.
 
@@ -37,55 +35,91 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 *Apr 2021 – Present*
 
 - Managed a high-performing team of cloud engineers and architects, leading solutions engineering initiatives, major migration projects, and strategic infrastructure programs during organizational restructuring.
+
 - Transitioned to focus on global Azure cloud operations post-realignment, driving operational excellence, subscription governance, automation initiatives, and security enhancements across seven tenants and hundreds of subscriptions.
+
 - Partner with Microsoft TAMs, WARA, and CSAM teams to guide support escalations through Services Hub, deliver compliance improvements, and optimize tenant performance and security posture.
+
 - Spearheaded an Azure subscription resource validation initiative, achieving **$1M+ in annual cloud cost savings** through proactive cleanup, policy enforcement, and automation using **Terraform, Python, PowerShell, and Bash scripting**.
+
 - Engineered and deployed automation scripts in **Bash, PowerShell, and Python** to locate, validate, and install security agents across hundreds of unmanaged Azure VMs globally, resolving critical CSO-priority vulnerabilities.
-- Advocated for and championed early adoption of **AI-native solutions** across cloud management workflows, enhancing operational efficiency, resilience, and strategic innovation.
+
+- Advocated for and championed early adoption of **{AI-native} solutions** across cloud management workflows, enhancing operational efficiency, resilience, and strategic innovation.
+
 - Supported M&A, divestiture, and cloud migration programs involving Microsoft 365, SharePoint Online, Power Platform, and hybrid cloud ecosystems, maintaining zero production downtime during critical transitions.
+
 - Led complex SharePoint and Power Platform global migrations with **zero production downtime**, ensuring seamless transitions for critical business units.
+
 - Oversaw the development of an M365 Outlook-based threat reporting solution, enabling rapid incident response in collaboration with WBD Security, FBI, and Homeland Security.
+
 - Managed hybrid cloud ecosystems across AWS, Azure, Active Directory, and Office 365.
+
 - Served as an essential engineering team member in Warner Bros. Discovery's rebranding and multi-cloud migration initiatives, collaborating directly with Microsoft engineers to drive successful infrastructure transitions.
+
 - Led a company-wide MDM migration from VMware Workspace One to Microsoft Intune.
+
 - Architected disaster recovery frameworks meeting CSO, legal, and compliance standards.
+
 - Leveraged Jira, Confluence, and Brinqa platforms to manage cloud security initiatives, vulnerability remediation workflows, infrastructure projects, and cross-functional collaboration across global teams.
 
 ### Fullscreen Media (Otter Media, Crunchyroll, Rooster Teeth) *(part of Otter Media, acquired by WarnerMedia/AT&T)*
 **Senior Systems Engineer / Manager**  
 *Apr 2019 – Apr 2021*
-- Led help desk and systems engineering teams across California and New York City locations, driving operational excellence and support innovation.
-- Architected and rebuilt Fullscreen’s IT infrastructure across both coasts, enhancing performance, reliability, and security.
-- Designed and deployed a full JAMF-based MacOps infrastructure, automating deployment, management, and security across a 600+ device macOS fleet.
-- Re-architected and modernized Active Directory infrastructure, improving authentication, security, and integration across cloud and on-premises systems.
-- Engineered VMware-based local data centers (LDCs), significantly reducing AWS dependency and optimizing cloud expenditure.
-- Architected and deployed a scalable AWS-based live streaming platform enabling Fullscreen’s teams to deliver 20+ simultaneous Netflix-quality 1080p YouTube streams globally for brands like Mattel, replacing unreliable local systems and supporting $10K+ per-stream revenue opportunities, while preserving full OBS control per stream.
-- Built Trusted Partner Network (TPN)-compliant secure video editing environments, ensuring content security compliance for global production workflows.
 
+- Led help desk and systems engineering teams across California and New York City locations, driving operational excellence and support innovation.
+
+- Architected and rebuilt Fullscreen’s IT infrastructure across both coasts, enhancing performance, reliability, and security.
+
+- Designed and deployed a full JAMF-based MacOps infrastructure, automating deployment, management, and security across a 600+ device macOS fleet.
+
+- Re-architected and modernized Active Directory infrastructure, improving authentication, security, and integration across cloud and on-premises systems.
+
+- Engineered VMware-based local data centers (LDCs), significantly reducing AWS dependency and optimizing cloud expenditure.
+
+- Architected and deployed a scalable AWS-based live streaming platform enabling Fullscreen’s teams to deliver 20+ simultaneous Netflix-quality 1080p YouTube streams globally for brands like Mattel, replacing unreliable local systems and supporting $10K+ per-stream revenue opportunities, while preserving full OBS control per stream.
+
+- Built Trusted Partner Network (TPN)-compliant secure video editing environments, ensuring content security compliance for global production workflows.
 
 ### Hermes BorderGuru, Greater Los Angeles Area
 **Consultant, Cloud and IT Infrastructure**  
 *Jan 2017 – 2021*
+
 - Led cloud and IT full-stack infrastructure across U.S. and Mexico.
+
 - Designed Amazon Connect call centers for e-commerce brands.
+
 - Implemented ISO27001 compliance frameworks enterprise-wide.
 
 ### .XYZ (Top-Level Domain Registry)
 **Systems Administrator II / DevOps Engineer**  
 *Jul 2016 – Apr 2019*
-- Architected and deployed an enterprise-grade Active Directory infrastructure, unifying authentication and security across macOS, Windows, and Linux desktops, and integrating cloud and on-premises systems to enforce secure identity management practices.- Managed AWS, Azure, and Linux server operations supporting domain sales and fintech services.
+
+- Architected and deployed an enterprise-grade Active Directory infrastructure, unifying authentication and security across macOS, Windows, and Linux desktops, integrating cloud and on-premises systems to enforce secure identity management practices.
+
+- Designed and built full lifecycle end-user system management automation across macOS, Windows, and Linux using **MUNKI, Puppet, SAL, Apple Profile Manager, and Active Directory**, streamlining deployment, configuration, security hardening, and compliance enforcement.
+
+- Managed AWS, Azure, and Linux server operations supporting domain sales and fintech services.
+
 - Built ElasticSearch clusters on-premises, saving significant AWS spend.
+
 - Architected and deployed one of the first Amazon Connect-based call center platforms globally, replacing legacy 8x8 systems at 1/16th the cost. Integrated intelligent database-driven routing to prioritize high-value customers across domain sales and fintech services, dramatically boosting sales conversion rates while reducing staffing needs to a single agent.
+
 - Deployed ARM64 Bitcoin mining operations at industrial scale.
 
-### Fox Television Animation (Family Guy, American Dad & The Clevelnad Show)
+### Fox Television Animation (Family Guy, American Dad & The Cleveland Show)
 **Senior Systems Administrator / Manager**  
 *Jun 2008 – Jul 2016*
+
 - Led a team of four systems administrators, overseeing support operations and infrastructure enhancements across production environments.
+
 - Directed IT infrastructure strategy for Fox Animation and Fox Television IT.
+
 - Architected desktop infrastructure and macOS deployment automation for a 350+ device Mac fleet, enhancing efficiency, consistency, and scalability across production environments.
+
 - Engineered Linux-based virtualized render farms reducing render time by 95%.
+
 - Engineered a cost-effective backup and storage solution in collaboration with Carbon Copy Cloner, automating local and offsite backups to an Amazon datacenter. Replaced a proposed $9K+ enterprise backup system with a customized solution for a few hundred dollars, overcoming complex file structure challenges unique to Fox Animation.
+
 - Supported network hardware ecosystems (Cisco, Palo Alto).
 
 ---
@@ -104,8 +138,6 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 
 **Musicians Institute (Recording Institute of Technology)** – Instructor, MIDI Sampling and Electronic Music Production (2002–2004)  
 - Designed and taught an advanced curriculum in electronic music production, sampling, and synthesis for Level 2 audio engineering students, blending technical systems knowledge with creative production techniques.
-
-
 
 ## Technical Skills
 
@@ -149,7 +181,7 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 ### Audio Engineering & Sound Design
 - Pro Tools, Logic Pro, Digital Performer, Nuendo/Cubase, Ableton Live, Melodyne
 - Linux-based Low-Latency Systems, Live and Studio Sound Engineering
-- Sound Synthesis and Sampling Systems (Hardware and Software)
+- Synthesis and Sampling Systems (Hardware and Software)
 
 ---
 
@@ -159,7 +191,6 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 - Global Cloud Migration and Optimization Programs
 - Vendor Relationship Management (Microsoft, AWS Solutions Teams)
 - Mentorship and Team Building (Training Junior Engineers, Cross-Functional Coaching)
-
 
 ---
 
@@ -173,7 +204,6 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 - Developed early expertise in **complex system architecture**, real-time signal processing, multi-platform hardware/software integration, and technical project workflows — foundational skills later applied to IT infrastructure, cloud engineering, and real-time system performance optimization.
 - After graduation, selected to design and teach the advanced **MIDI Sampling & Electronic Music Production** course for Level 2 RIT students.
 - Authored an original curriculum blending **musique concrète principles**, **synthesis technologies**, and **studio hardware/software integration**, combining historical methodologies with modern production tools to develop advanced creative and technical problem-solving skills.
-
 
 ## Professional Development
 
@@ -191,4 +221,3 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 - Passionate about mentoring and driven by a relentless commitment to learning and innovation
 
 ---
-
