@@ -70,6 +70,12 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 
 - Architected and rebuilt Fullscreen’s IT infrastructure across both coasts, enhancing performance, reliability, and security.
 
+- Administered core collaboration platforms including Google Workspace, Slack, and Zoom, enhancing operational efficiency and cloud governance.
+
+- Led successful external client security audits, directly contributing to major contract wins and significant revenue growth.
+
+- Spearheaded a cost-saving initiative migrating VIP telephony services from MegaPath to Zoom Phone by engineering hardware reconfiguration workflows, enabling full system reuse and delivering major operational savings.
+
 - Designed and deployed a full JAMF-based MacOps infrastructure, automating deployment, management, and security across a 600+ device macOS fleet.
 
 - Re-architected and modernized Active Directory infrastructure, improving authentication, security, and integration across cloud and on-premises systems.
@@ -100,6 +106,8 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 
 - Managed AWS, Azure, and Linux server operations supporting domain sales and fintech services.
 
+- Directed the consolidation of four separate Google Workspace environments into a single cohesive platform, significantly improving cross-team collaboration, simplifying IT governance, and enhancing enterprise-grade security.
+
 - Built ElasticSearch clusters on-premises, saving significant AWS spend.
 
 - Architected and deployed one of the first Amazon Connect-based call center platforms globally, replacing legacy 8x8 systems at 1/16th the cost. Integrated intelligent database-driven routing to prioritize high-value customers across domain sales and fintech services, dramatically boosting sales conversion rates while reducing staffing needs to a single agent.
@@ -116,6 +124,8 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 
 - Architected desktop infrastructure and macOS deployment automation for a 350+ device Mac fleet, enhancing efficiency, consistency, and scalability across production environments.
 
+- Managed Active Directory infrustructure 
+
 - Engineered Linux-based virtualized render farms reducing render time by 95%.
 
 - Engineered a cost-effective backup and storage solution in collaboration with Carbon Copy Cloner, automating local and offsite backups to an Amazon datacenter. Replaced a proposed $9K+ enterprise backup system with a customized solution for a few hundred dollars, overcoming complex file structure challenges unique to Fox Animation.
@@ -127,7 +137,7 @@ Advanced **Linux engineer** specializing in **virtualization, containerization**
 ## Earlier Career Highlights
 
 **B&C Design | Beuniki Jewelry** – Partner, Operations & Cloud Infrastructure (2012–2021)  
-- Co-founded and scaled an online jewelry business to $1.5M/year in sales, managing full-stack cloud infrastructure, e-commerce platforms (Shopify, WordPress), and global marketing operations.  
+- Co-founded and scaled an online jewelry business to $1M/year in sales, managing full-stack cloud infrastructure, e-commerce platforms (Shopify, WordPress), and global marketing operations.  
 - Directed a global team of influencers and executed high-impact digital marketing campaigns across Instagram, Twitter, and Facebook.
 
 **Voyager Productions (Cosmos: A Spacetime Odyssey)** – Consultant, IT Infrastructure (2012)  
