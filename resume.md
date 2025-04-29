@@ -16,12 +16,16 @@ toc: false
 
 ## Executive Summary
 
-Dynamic **Full Stack IT, Cloud, and Infrastructure Leader** with over 15 years of experience architecting, administering, securing, and optimizing complex global enterprise environments.  
-Expert in **cloud strategy, cybersecurity, full-stack infrastructure design, identity platforms, technical program leadership**, and **M&A integrations**.  
-Currently leading **global cloud operations and strategic initiatives** across seven Azure tenants and hundreds of subscriptions at Warner Bros. Discovery, partnering with executive leadership to drive operational excellence, innovation, and cross-functional collaboration.
+Dynamic **Full Stack IT, Cloud, and Infrastructure Leader** with over 15 years of experience architecting, securing, and optimizing complex enterprise environments across global organizations.  
+Expert in **cloud strategy, cybersecurity, full-stack infrastructure design, identity platforms, technical program delivery**, and **M&A integrations**.
 
-Driving ongoing cloud optimization initiatives, already delivering $1M+ in annual savings through infrastructure improvements, governance, and modernization — with significant additional savings projected.Trusted **consultant, advisor, and solutions engineer** with deep expertise in **cloud computing, hybrid cloud architecture, local virtualization**, and **large-scale desktop and end-user computing provisioning, management, and design**.  
-Passionate **AI advocate and automation pioneer**, accelerating enterprise adoption of {AI-native} solutions across cloud management, security, and operational workflows.
+Currently supporting global Azure cloud operations at Warner Bros. Discovery across seven tenants and hundreds of subscriptions. Work includes leading strategic initiatives in automation, operational excellence, subscription governance, and infrastructure optimization in collaboration with executive leadership.
+
+Initiated cloud cost optimization programs already delivering **$1M+ in annual savings**, with further gains projected through ongoing modernization, governance, and engineering refinement.
+
+Trusted **consultant, advisor, and solutions engineer** with deep expertise in **cloud computing, hybrid cloud architecture, local virtualization**, and **large-scale end-user computing environments**, including provisioning, fleet management, and infrastructure design.
+
+Early adopter and internal advocate for **AI-native enterprise solutions**, including contributions to pre-release testing of Microsoft 365 Copilot and broader AI-enhanced cloud management workflows.
 
 - Advanced Linux engineer with deep expertise in virtualization, containerization, and real-time system performance — with cross-platform proficiency in macOS and Windows environments.
 ---
