@@ -63,7 +63,7 @@ Advanced Linux engineer with deep expertise in virtualization, containerization,
 
 - Collaborated as part of a cross-functional leadership team to evaluate and test disaster recovery solutions, reporting findings that influenced platform selection aligned with CSO, legal, and compliance requirements.
 
-- Leveraged Jira, Confluence, and Brinqa platforms to manage cloud security initiatives, vulnerability remediation workflows, infrastructure projects, and cross-functional collaboration across global teams.
+- Leveraged Jira, Confluence, and Brinqa platforms to support cloud security architecture and ongoing operational administration, driving vulnerability remediation, infrastructure project delivery, and cross-functional collaboration across global teams.
 
 ### Fullscreen Media (Otter Media, Crunchyroll, Rooster Teeth) *(part of Otter Media, acquired by WarnerMedia/AT&T)*
 **Senior Systems Engineer / Manager**  
