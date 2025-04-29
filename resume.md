@@ -55,7 +55,7 @@ Advanced Linux engineer with deep expertise in virtualization, containerization,
 
 - Oversaw the development of an M365 Outlook-based threat reporting solution, enabling rapid incident response in collaboration with WBD Security, FBI, and Homeland Security.
 
-- Led early enterprise testing and rollout planning for Microsoft 365 Copilot in collaboration with M365 engineering teams, advancing AI-native adoption across cloud and collaboration workflows
+- Collaborated with a cross-functional engineering team on early enterprise testing and rollout planning for Microsoft 365 Copilot, contributing to AI-native adoption strategies across cloud and collaboration workflows.
 
 - Served as an essential engineering team member in Warner Bros. Discovery's rebranding and multi-cloud migration initiatives, collaborating directly with Microsoft engineers to drive successful infrastructure transitions.
 
