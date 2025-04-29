@@ -49,7 +49,7 @@ Advanced Linux engineer with deep expertise in virtualization, containerization,
 
 - Transitioned to focus on global Azure cloud operations post-realignment, driving operational excellence, subscription governance, automation initiatives, and security enhancements across seven tenants and hundreds of subscriptions.
 
-- Supported M&A, divestiture, and cloud migration programs involving Microsoft 365, SharePoint Online, Power Platform, and hybrid cloud ecosystems, maintaining zero production downtime during critical transitions.
+- Supported M&A, divestiture, and cloud migration projects involving Microsoft 365, SharePoint Online, Power Platform, and hybrid cloud ecosystems, maintaining zero production downtime during critical transitions.
 
 - Led complex SharePoint and Power Platform global migrations with **zero production downtime**, ensuring seamless transitions for critical business units.
 
