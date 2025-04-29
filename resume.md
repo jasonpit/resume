@@ -32,17 +32,17 @@ Passionate **AI advocate and automation pioneer**, accelerating enterprise adopt
 **Senior Cloud Engineer / Acting Solutions Engineering Manager**  
 *Apr 2021 – Present*
 
-- Managed a high-performing team of cloud engineers and architects, leading solutions engineering initiatives, major migration projects, and strategic infrastructure programs during organizational restructuring.
-
-- Transitioned to focus on global Azure cloud operations post-realignment, driving operational excellence, subscription governance, automation initiatives, and security enhancements across seven tenants and hundreds of subscriptions.
+- Spearheaded an Azure subscription resource validation initiative, achieving **$1M+ in annual cloud cost savings** through proactive cleanup, policy enforcement, and automation using **Terraform, Python, PowerShell, and Bash scripting**.
 
 - Partner with Microsoft TAMs, WARA, and CSAM teams to guide support escalations through Services Hub, deliver compliance improvements, and optimize tenant performance and security posture.
 
-- Spearheaded an Azure subscription resource validation initiative, achieving **$1M+ in annual cloud cost savings** through proactive cleanup, policy enforcement, and automation using **Terraform, Python, PowerShell, and Bash scripting**.
-
 - Engineered and deployed automation scripts in **Bash, PowerShell, and Python** to locate, validate, and install security agents across hundreds of unmanaged Azure VMs globally, resolving critical CSO-priority vulnerabilities.
 
-- Advocated for and championed early adoption of **{AI-native} solutions** across cloud management workflows, enhancing operational efficiency, resilience, and strategic innovation.
+- Managed a high-performing team of cloud engineers and architects, leading solutions engineering initiatives, major migration projects, and strategic infrastructure programs during organizational restructuring.
+
+- Architected and managed hybrid and pure cloud environments across AWS and Azure, supporting global business units. Leveraged Terraform, CLI tools, Python, and PowerShell to drive infrastructure-as-code automation, policy enforcement, and operational consistency.
+
+- Transitioned to focus on global Azure cloud operations post-realignment, driving operational excellence, subscription governance, automation initiatives, and security enhancements across seven tenants and hundreds of subscriptions.
 
 - Supported M&A, divestiture, and cloud migration programs involving Microsoft 365, SharePoint Online, Power Platform, and hybrid cloud ecosystems, maintaining zero production downtime during critical transitions.
 
@@ -50,13 +50,13 @@ Passionate **AI advocate and automation pioneer**, accelerating enterprise adopt
 
 - Oversaw the development of an M365 Outlook-based threat reporting solution, enabling rapid incident response in collaboration with WBD Security, FBI, and Homeland Security.
 
-- Managed hybrid cloud ecosystems across AWS, Azure, Active Directory, and Office 365.
+- Led early enterprise testing and rollout planning for Microsoft 365 Copilot in collaboration with M365 engineering teams, advancing AI-native adoption across cloud and collaboration workflows
 
 - Served as an essential engineering team member in Warner Bros. Discovery's rebranding and multi-cloud migration initiatives, collaborating directly with Microsoft engineers to drive successful infrastructure transitions.
 
 - Led a company-wide MDM migration from VMware Workspace One to Microsoft Intune.
 
-- Architected disaster recovery frameworks meeting CSO, legal, and compliance standards.
+- Collaborated as part of a cross-functional leadership team to evaluate and test disaster recovery solutions, reporting findings that influenced platform selection aligned with CSO, legal, and compliance requirements.
 
 - Leveraged Jira, Confluence, and Brinqa platforms to manage cloud security initiatives, vulnerability remediation workflows, infrastructure projects, and cross-functional collaboration across global teams.
 
