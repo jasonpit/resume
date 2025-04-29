@@ -18,14 +18,12 @@ toc: false
 
 Dynamic **Full Stack IT, Cloud, and Infrastructure Leader** with over 15 years of experience architecting, administering, securing, and optimizing complex global enterprise environments.  
 Expert in **cloud strategy, cybersecurity, full-stack infrastructure design, identity platforms, technical program leadership**, and **M&A integrations**.  
-Currently leading **global cloud operations and strategic initiatives** across seven Azure tenants and hundreds of subscriptions at Warner Bros. Discovery, partnering directly with executive leadership to drive operational excellence, innovation, and cross-functional collaboration.
+Currently leading **global cloud operations and strategic initiatives** across seven Azure tenants and hundreds of subscriptions at Warner Bros. Discovery, partnering with executive leadership to drive operational excellence, innovation, and cross-functional collaboration.
 
-Proven success delivering **$1M+ annual cloud savings** through infrastructure optimization, governance, and modernization programs.  
-Trusted **consultant, advisor, and solutions engineer** with deep expertise in **cloud computing, hybrid cloud architecture, local virtualization**, and **large-scale desktop and end-user computing provisioning, management, and design**.  
+Driving ongoing cloud optimization initiatives, already delivering $1M+ in annual savings through infrastructure improvements, governance, and modernization — with significant additional savings projected.Trusted **consultant, advisor, and solutions engineer** with deep expertise in **cloud computing, hybrid cloud architecture, local virtualization**, and **large-scale desktop and end-user computing provisioning, management, and design**.  
 Passionate **AI advocate and automation pioneer**, accelerating enterprise adoption of {AI-native} solutions across cloud management, security, and operational workflows.
 
-Advanced **Linux engineer** specializing in **virtualization, containerization**, real-time systems, and **professional-grade audio engineering and sound design** across all platforms.
-
+- Advanced Linux engineer with deep expertise in virtualization, containerization, and real-time system performance — with cross-platform proficiency in macOS and Windows environments.
 ---
 
 ## Professional Experience
