@@ -25,7 +25,7 @@ Initiated cloud cost optimization programs already delivering **$1M+ in annual s
 
 Trusted **consultant, advisor, and solutions engineer** with deep expertise in **cloud computing, hybrid cloud architecture, local virtualization**, and **large-scale end-user computing environments**, including provisioning, fleet management, and infrastructure design.
 
-Early adopter and internal advocate for **AI-native enterprise solutions**, including contributions to pre-release testing of Microsoft 365 Copilot and broader AI-enhanced cloud management workflows.
+Early adopter and internal advocate for **AI-native enterprise solutions**.
 
 Advanced Linux engineer with deep expertise in virtualization, containerization, and real-time system performance — with cross-platform proficiency in macOS and Windows environments.
 
