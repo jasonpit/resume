@@ -23,11 +23,14 @@ Currently supporting global Azure cloud operations at Warner Bros. Discovery acr
 
 Initiated cloud cost optimization programs already delivering **$1M+ in annual savings**, with further gains projected through ongoing modernization, governance, and engineering refinement.
 
+Experienced in building and optimizing real-time communication workflows, including outbound email routing, alerting systems, and cloud-native message delivery pipelines. Hands-on experience with PagerDuty, VictorOps, Microsoft Teams and Slack notifications, JAMF push alerts, Azure Notification Hubs, and AWS SNS/SMS.  
+Also experienced in architecting Amazon Connect-based messaging workflows, integrating voice, IVR, and SMS channels with backend systems for scalable, event-driven communication.
+
 Trusted **consultant, advisor, and solutions engineer** with deep expertise in **cloud computing, hybrid cloud architecture, local virtualization**, and **large-scale end-user computing environments**, including provisioning, fleet management, and infrastructure design.
 
 Early adopter and internal advocate for **AI-native enterprise solutions**.
 
-Advanced Linux engineer with deep expertise in virtualization, containerization, and real-time system performance — with cross-platform proficiency in macOS and Windows environments.
+Advanced Linux engineer with deep expertise in real-time system performance, containerization, and scalable messaging infrastructure — with cross-platform proficiency in macOS and Windows environments.
 
 ---
 
@@ -42,6 +45,8 @@ Advanced Linux engineer with deep expertise in virtualization, containerization,
 - Partner with Microsoft TAMs, WARA, and CSAM teams to guide support escalations through Services Hub, deliver compliance improvements, and optimize tenant performance and security posture.
 
 - Engineered and deployed automation scripts in **Bash, PowerShell, and Python** to locate, validate, and install security agents across hundreds of unmanaged Azure VMs globally, resolving critical CSO-priority vulnerabilities.
+
+- Initiated cloud-only account messaging strategy to restore communication capabilities across M365 and Azure admin panels, replacing complex workarounds and improving cross-team operational transparency.
 
 - Managed a high-performing team of cloud engineers and architects, leading solutions engineering initiatives, major migration projects, and strategic infrastructure programs during organizational restructuring.
 
@@ -95,7 +100,7 @@ Advanced Linux engineer with deep expertise in virtualization, containerization,
 
 - Led cloud and IT full-stack infrastructure across U.S. and Mexico.
 
-- Designed Amazon Connect call centers for e-commerce brands.
+- Designed and deployed Amazon Connect-based contact centers for e-commerce brands, integrating intelligent call routing and SMS workflows with backend systems — delivering scalable, messaging-driven customer engagement solutions.
 
 - Implemented ISO27001 compliance frameworks enterprise-wide.
 
@@ -156,7 +161,7 @@ Advanced Linux engineer with deep expertise in virtualization, containerization,
 
 ### Cloud Platforms & Architecture
 - **Platforms:** Azure, AWS, Google Cloud, DigitalOcean
-- **Architecture:** Hybrid Cloud Strategies, Infrastructure Design, Solutions Engineering
+- **Architecture:** Hybrid Cloud Strategies, Infrastructure Design, Solutions Engineering, Message Delivery Infrastructure, Multi-Channel Notification Systems
 
 ### Security & Compliance
 - **Frameworks:** ISO27001, PCI Compliance, Zero Trust Architecture
@@ -175,17 +180,17 @@ Advanced Linux engineer with deep expertise in virtualization, containerization,
 
 ### Automation, Scripting & DevOps
 - Bash, PowerShell, Terraform, GitHub Actions, Jenkins, Bitbucket, Azure DevOps
-- HTML, PHP, Python (fundamentals), Allways Learning..
+- HTML, PHP, Python (fundamentals), Outbound Messaging Workflows, Email Routing Automation, Allways Learning..
 
 ### Monitoring, Observability & Telemetry
-- Datadog, Zabbix, Azure Monitor, AWS CloudWatch, VictorOps, 
+- Datadog, Zabbix, Azure Monitor, AWS CloudWatch, VictorOps, PagerDuty
 
 ### Device Management & End-User Computing
 - JAMF, Intune, Workspace One, Apple Business Manager, MUNKI, Puppet
 - macOS, Windows, Linux, iOS, iPadOS, Android (Zero-Touch Deployments)
 
 ### Collaboration Tools Administration
-- Microsoft 365, Google Worplace, Slack, Zoom, Microsoft Teams, LastPass, Meta Workplace, Atlassian Suite (Jira, Confluence)
+- Microsoft 365, Google Workplace, Slack (messaging integration), Zoom, Microsoft Teams (alerts and automation), LastPass, Meta Workplace, Atlassian Suite (Jira, Confluence)
 
 ### AI & Automation
 - OpenAI APIs, Microsoft Power Platform, GitHub Copilot
