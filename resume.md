@@ -23,14 +23,13 @@ Currently supporting global Azure cloud operations at Warner Bros. Discovery acr
 
 Initiated cloud cost optimization programs already delivering **$1M+ in annual savings**, with further gains projected through ongoing modernization, governance, and engineering refinement.
 
-Experienced in building and optimizing real-time communication workflows, including outbound email routing, alerting systems, and cloud-native message delivery pipelines. Hands-on experience with PagerDuty, VictorOps, Microsoft Teams and Slack notifications, JAMF push alerts, Azure Notification Hubs, and AWS SNS/SMS.  
-Also experienced in architecting Amazon Connect-based messaging workflows, integrating voice, IVR, and SMS channels with backend systems for scalable, event-driven communication.
+Experienced in building and optimizing real-time communication workflows, including outbound email routing, alerting systems, and cloud-native message delivery pipelines. Hands-on experience with PagerDuty, VictorOps, Microsoft Teams and Slack notifications, JAMF push alerts, Azure Notifications, and AWS SNS/SMS. Also experienced in architecting Amazon Connect-based messaging workflows, integrating voice, IVR, and SMS channels with backend systems for scalable, event-driven communication.
 
 Trusted **consultant, advisor, and solutions engineer** with deep expertise in **cloud computing, hybrid cloud architecture, local virtualization**, and **large-scale end-user computing environments**, including provisioning, fleet management, and infrastructure design.
 
 Early adopter and internal advocate for **AI-native enterprise solutions**.
 
-Advanced Linux engineer with deep expertise in real-time system performance, containerization, and scalable messaging infrastructure — with cross-platform proficiency in macOS and Windows environments.
+Advanced Linux engineer with deep expertise in real-time system performance, virtualization/containerization — with cross-platform proficiency in macOS and Windows environments.
 
 ---
 
@@ -46,19 +45,17 @@ Advanced Linux engineer with deep expertise in real-time system performance, con
 
 - Engineered and deployed automation scripts in **Bash, PowerShell, and Python** to locate, validate, and install security agents across hundreds of unmanaged Azure VMs globally, resolving critical CSO-priority vulnerabilities.
 
-- Initiated cloud-only account messaging strategy to restore communication capabilities across M365 and Azure admin panels, replacing complex workarounds and improving cross-team operational transparency.
+- Transitioned to focus on global Azure cloud operations post-realignment, driving operational excellence, subscription governance, automation initiatives, and security enhancements across seven tenants and hundreds of subscriptions.
 
 - Managed a high-performing team of cloud engineers and architects, leading solutions engineering initiatives, major migration projects, and strategic infrastructure programs during organizational restructuring.
 
 - Architected and managed hybrid and pure cloud environments across AWS and Azure, supporting global business units. Leveraged Terraform, CLI tools, Python, and PowerShell to drive infrastructure-as-code automation, policy enforcement, and operational consistency.
 
-- Transitioned to focus on global Azure cloud operations post-realignment, driving operational excellence, subscription governance, automation initiatives, and security enhancements across seven tenants and hundreds of subscriptions.
-
 - Supported M&A, divestiture, and cloud migration projects involving Microsoft 365, SharePoint Online, Power Platform, and hybrid cloud ecosystems, maintaining zero production downtime during critical transitions.
 
 - Led complex SharePoint and Power Platform global migrations with **zero production downtime**, ensuring seamless transitions for critical business units.
 
-- Collaborated with internal teams and Microsoft support to develop an M365 Outlook-based physical threat reporting button, enabling employees to escalate serious incidents (e.g., bomb or death threats) to WBD Security. The solution automatically formats captured data for rapid intake by physical security teams and downstream escalation to Homeland Security and the FBI.
+- Collaborated with internal stakeholders and Microsoft support to design and deploy an M365 Outlook-based plugin to support global physical security reporting. The tool enables employees to escalate serious incidents directly to the enterprise security team, with automated formatting and routing to facilitate rapid response and escalation through appropriate external channels.
 
 - Collaborated with a cross-functional engineering team on early enterprise testing and rollout planning for Microsoft 365 Copilot, contributing to AI-native adoption strategies across cloud and collaboration workflows.
 
@@ -68,7 +65,6 @@ Advanced Linux engineer with deep expertise in real-time system performance, con
 
 - Collaborated as part of a cross-functional leadership team to evaluate and test disaster recovery solutions, reporting findings that influenced platform selection aligned with CSO, legal, and compliance requirements.
 
-- Leveraged Jira, Confluence, and Brinqa platforms to support cloud security architecture and ongoing operational administration, driving vulnerability remediation, infrastructure project delivery, and cross-functional collaboration across global teams.
 
 ### Fullscreen Media (Otter Media, Crunchyroll, Rooster Teeth) *(part of Otter Media, acquired by WarnerMedia/AT&T)*
 **Senior Systems Engineer / Manager**  
@@ -98,11 +94,19 @@ Advanced Linux engineer with deep expertise in real-time system performance, con
 **Consultant, Cloud and IT Infrastructure**  
 *Jan 2017 – 2021*
 
-- Led cloud and IT full-stack infrastructure across U.S. and Mexico.
+- Led full-stack IT infrastructure design, implementation, and support across U.S. and Mexico, focusing on **Azure cloud architecture**, **Azure AD**, **M365**, **Linux infrastructure**, and **enterprise application integration**.Supporting Hermes clients such as **Lanvin** and **Wolford**, focusing on scalable, secure infrastructure for high-traffic e-commerce operations.
 
-- Designed and deployed Amazon Connect-based contact centers for e-commerce brands, integrating intelligent call routing and SMS workflows with backend systems — delivering scalable, messaging-driven customer engagement solutions.
+- Architected and managed **Azure-based infrastructure**, including App Services and cloud-native solutions using **Terraform, Python, Bash and PowerShell** to ensure scalable, secure global operations.
 
-- Implemented ISO27001 compliance frameworks enterprise-wide.
+ - Supported and integrated **Microsoft Dynamics NAV and Dynamics 365 & Business Central** for warehouse, logistics, and customer service workflows. Deployed Windows-based shipping stations throughout warehouse environments, integrating Dynamics with employee management and commute systems for large-scale shipping operations. 
+
+- Developed and maintained **customer-facing WordPress and Shopify applications**.
+
+- Designed and operated **Amazon Connect-based call centers**, integrating **intelligent IVR, SMS**
+
+- Provided Linux infrastructure engineering across physical and virtualized environments, including network hardening, LAMP stack optimization, and continuous monitoring.
+
+ - Engineered and managed **Cisco and Meraki-based network infrastructure**, supporting multi-VLAN segmentation, warehouse and team Wi-Fi, and reliable connectivity for distributed shipping and logistics operations.
 
 ### .XYZ (Top-Level Domain Registry)
 **Systems Administrator II / DevOps Engineer**  
