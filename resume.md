@@ -21,15 +21,11 @@ Expert in **cloud strategy, cybersecurity, full-stack infrastructure design, ide
 
 Currently supporting global Azure cloud operations at Warner Bros. Discovery across seven tenants and hundreds of subscriptions. Work includes leading strategic initiatives in automation, operational excellence, subscription governance, and infrastructure optimization in collaboration with executive leadership.
 
-Initiated cloud cost optimization programs already delivering **$1M+ in annual savings**, with further gains projected through ongoing modernization, governance, and engineering refinement.
-
-Experienced in building and optimizing real-time communication workflows, including outbound email routing, alerting systems, and cloud-native message delivery pipelines. Hands-on experience with PagerDuty, VictorOps, Microsoft Teams and Slack notifications, JAMF push alerts, Azure Notifications, and AWS SNS/SMS. Also experienced in architecting Amazon Connect-based messaging workflows, integrating voice, IVR, and SMS channels with backend systems for scalable, event-driven communication.
-
 Trusted **consultant, advisor, and solutions engineer** with deep expertise in **cloud computing, hybrid cloud architecture, local virtualization**, and **large-scale end-user computing environments**, including provisioning, fleet management, and infrastructure design.
 
 Early adopter and internal advocate for **AI-native enterprise solutions**.
 
-Advanced Linux engineer with deep expertise in real-time system performance, virtualization/containerization — with cross-platform proficiency in macOS and Windows environments.
+Advanced Linux engineer with deep expertise in real-time multi media system performance, virtualization/containerization — with cross-platform proficiency in macOS and Windows environments.
 
 ---
 
@@ -43,9 +39,7 @@ Advanced Linux engineer with deep expertise in real-time system performance, vir
 
 - Partner with Microsoft TAMs, WARA, and CSAM teams to guide support escalations through Services Hub, deliver compliance improvements, and optimize tenant performance and security posture.
 
-- Engineered and deployed automation scripts in **Bash, PowerShell, and Python** to locate, validate, and install security agents across hundreds of unmanaged Azure VMs globally, resolving critical CSO-priority vulnerabilities.
-
-- Transitioned to focus on global Azure cloud operations post-realignment, driving operational excellence, subscription governance, automation initiatives, and security enhancements across seven tenants and hundreds of subscriptions.
+- Engineered and deployed automation scripts with **Bash, PowerShell, and Python** to locate, validate, and install security agents across hundreds of unmanaged Azure VMs globally, resolving critical CSO-priority vulnerabilities.
 
 - Managed a high-performing team of cloud engineers and architects, leading solutions engineering initiatives, major migration projects, and strategic infrastructure programs during organizational restructuring.
 
@@ -59,7 +53,7 @@ Advanced Linux engineer with deep expertise in real-time system performance, vir
 
 - Collaborated with a cross-functional engineering team on early enterprise testing and rollout planning for Microsoft 365 Copilot, contributing to AI-native adoption strategies across cloud and collaboration workflows.
 
-- Served as an essential engineering team member in Warner Bros. Discovery's rebranding and multi-cloud migration initiatives, collaborating directly with Microsoft engineers to drive successful infrastructure transitions.
+- Served as a core engineering team member during Warner Bros. and Discovery’s merger-driven rebranding and full-scale global multi-cloud migration, collaborating directly with Microsoft engineers to plan and execute complex infrastructure transitions. Led the end-to-end migration of enterprise assets from multiple legacy Azure/M365 tenants and Google Workspace environments into the newly unified Warner Bros. Discovery tenant, ensuring data integrity, minimal downtime, and compliance with global security and regulatory requirements.
 
 - Led a company-wide MDM migration from VMware Workspace One to Microsoft Intune.
 
