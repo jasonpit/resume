@@ -32,7 +32,7 @@ Advanced Linux engineer with deep expertise in real-time multi media system perf
 ## Professional Experience
 
 ### Warner Bros. Discovery, Los Angeles, CA
-**Senior Cloud Engineer / Acting Solutions Engineering Manager**  
+**Senior Cloud Engineer / Solutions Engineering**  
 *Apr 2021 – Present*
 
 - Spearheaded an Azure subscription resource validation initiative, achieving **$1M+ in annual cloud cost savings** through proactive cleanup, policy enforcement, and automation using **Terraform, Python, PowerShell, and Bash scripting**.
