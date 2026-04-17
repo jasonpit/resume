@@ -8,7 +8,7 @@ toc: false
 ---
 
 # Jason Pittman
-**Cloud Infrastructure | Solutions Engineering | Cross-Functional Technical Leadership**
+**Cloud Security Architecture | Multi-Cloud Governance | AI-Native Infrastructure & Automation**
 
 **213-590-2801** | **jasonpit@mac.com** | [LinkedIn](https://www.linkedin.com/in/jason-pittman-a1b34a1a/) | [GitHub](https://github.com/jasonpit)
 
@@ -16,19 +16,38 @@ toc: false
 
 ## Executive Summary
 
-**Cloud Infrastructure Engineer** with 15+ years architecting and operating enterprise environments at global scale across **Azure, AWS, and GCP**. Currently driving Azure technical strategy for the Warner Bros. corporate divestiture, designing greenfield Landing Zones, governance frameworks, and migration patterns across hundreds of subscriptions.
+**Cloud Security Architect** with 17+ years architecting and operating enterprise environments at global scale across **Azure, AWS, and GCP**. Currently leading architecture reviews, security baselines, and global security posture across Warner Bros. Discovery's multi-cloud estate, with focus on observability at scale and governance of AI/agentic tooling.
 
-Seasoned in **Azure architecture, AWS, hybrid cloud, identity platforms (Entra ID, PIM, RBAC), infrastructure-as-code (Terraform, Bicep), and automation (Python, PowerShell, Bash)**. Track record of cross-functional technical leadership, partnering with Microsoft engineering, Corporate Security, and executive stakeholders to deliver complex infrastructure.
+Seasoned in **cloud security architecture, Azure/AWS/GCP, identity platforms (Entra ID, PIM, RBAC), infrastructure-as-code (Terraform, Bicep), and automation (Python, PowerShell, Bash)**. Track record of cross-functional technical leadership, partnering with Microsoft engineering, Corporate Security, and executive stakeholders to deliver complex infrastructure and security programs.
 
-Strong foundation in Linux systems, virtualization/containerization, and end-user computing. Early adopter of AI-native tooling for enterprise workflows.
+Strong foundation in Linux systems, virtualization/containerization, and AI-native automation. Builder of agentic security workflows using MCP, RAG pipelines, and LLM-powered tooling for enterprise-scale operations.
 
 ---
 
 ## Professional Experience
 
 ### Warner Bros. Discovery, Los Angeles, CA
+*Apr 2021 – Present (7+ years)*
+
+**Cloud Security Architect**
+*Mar 2026 – Present*
+
+- **Lead architecture reviews and security baselines** across WBD's multi-cloud estate (Azure, AWS, GCP), defining and enforcing governance frameworks across 9+ tenants and hundreds of subscriptions.
+
+- **Drive global security posture and observability at scale**, including Entra ID diagnostic log export to Splunk via Event Hub, enabling security telemetry across identity, audit, and provisioning event streams.
+
+- **Architect Azure Policy-as-Code governance**, translating corporate security baselines from Confluence into enforceable Terraform/Bicep policy sets deployed across 7+ tenants. Partnering with Security and Compliance to codify and automate baseline enforcement.
+
+- **Agentic tooling governance and enablement** — evaluating and architecting secure patterns for AI/ML workflows and agentic software development across the enterprise. Designed a Bedrock + Claude MCP architecture as a cross-tool AI security layer over Splunk, Wiz, SentinelOne, Tenable, and Brinqa, providing unified security querying and automated triage.
+
+- **Building MCP-based security tool connectors** integrating Wiz, Splunk, Brinqa, SentinelOne, and Tenable into agentic workflows, enabling AI-powered vulnerability correlation and incident response at enterprise scale.
+
+- **Established GICT Cloud Architecture security group** with role-based access, PIM, and notification workflows across 7 WBD tenants, enabling consistent cross-tenant security governance for the cloud architecture team.
+
+- **Azure and AI/ML SME** for the security organization, bridging Cloud Engineering, Corporate Security, and Microsoft on identity architecture, zero-trust strategy, and emerging AI security patterns.
+
 **Senior Cloud Engineer / Solutions Engineering**
-*Apr 2021 – Present*
+*Apr 2021 – Mar 2026*
 
 - **Drive Azure technical strategy for Warner Bros. corporate divestiture** as the Azure SME for Cloud Infrastructure. Architect greenfield Azure Landing Zones, management group hierarchies, subscription vending patterns, network topology, and governance frameworks. Coordinate migrations across hundreds of subscriptions and seven tenants while maintaining service continuity.
 
@@ -154,10 +173,11 @@ Strong foundation in Linux systems, virtualization/containerization, and end-use
 - **Architecture:** Hybrid Cloud Strategies, Infrastructure Design, Solutions Engineering, Message Delivery Infrastructure, Multi-Channel Notification Systems
 
 ### Security & Compliance
-- **Frameworks:** ISO27001, PCI Compliance, Zero Trust Architecture
-- **Practices:** Cloud Governance, Disaster Recovery Planning
-- **Vulnerability Management:** Brinqa, Microsoft Defender for Endpoint
-- **Endpoint Protection & Patch Management:** SentinelOne Administration, Automox, Microsoft Defender for Endpoint
+- **Frameworks:** ISO27001, PCI Compliance, Zero Trust Architecture, NIST CSF
+- **Practices:** Cloud Governance, Security Architecture Reviews, Disaster Recovery Planning, Security Baselines & Policy-as-Code
+- **Vulnerability Management:** Wiz, Brinqa, Tenable, Microsoft Defender for Cloud
+- **SIEM & Observability:** Splunk, Azure Monitor, Event Hub, Entra ID Diagnostics
+- **Endpoint Protection & Patch Management:** SentinelOne, Automox, Microsoft Defender for Endpoint
 
 ### Identity, Access & Authentication
 - Microsoft Entra ID, Azure Active Directory (Azure AD), Active Directory Federation Services (ADFS), Google Workspace, Open Directory, OKTA
@@ -183,10 +203,11 @@ Strong foundation in Linux systems, virtualization/containerization, and end-use
 - Microsoft 365, Google Workplace, Slack (messaging integration), Zoom, Microsoft Teams (alerts and automation), LastPass, Meta Workplace, Atlassian Suite (Jira, Confluence)
 
 ### AI & Automation
-- **LLM Platforms:** OpenAI APIs, Anthropic Claude, Google Gemini, Microsoft Copilot, GitHub Copilot
-- **Agentic Workflows:** Claude Code, OpenCode, Codex, MCP (Model Context Protocol) servers, custom tool integration
+- **LLM Platforms:** Anthropic Claude, AWS Bedrock, OpenAI APIs, Google Gemini, Microsoft Copilot, GitHub Copilot
+- **Agentic Workflows:** Claude Code, MCP (Model Context Protocol) server development, RAG pipelines (ChromaDB), autonomous agent orchestration, custom tool integration
+- **AI Security & Governance:** Agentic tooling governance, AI/ML workflow security patterns, LLM-powered security operations
 - **Local AI Infrastructure:** Self-hosted models on custom-built compute with AI-centric GPUs (NVIDIA RTX/A-series)
-- **Automation:** Microsoft Power Platform, n8n, custom Python/Bash automation pipelines
+- **Automation:** Terraform, Bicep, Python, PowerShell, Bash, Microsoft Power Platform, n8n
 
 ### Audio Engineering & Sound Design
 - Pro Tools, Logic Pro, Digital Performer, Nuendo/Cubase, Ableton Live, Melodyne
@@ -209,11 +230,14 @@ Strong foundation in Linux systems, virtualization/containerization, and end-use
 ### NASA/JPL Data Sonification Project
 Collaborative project with JPL team exploring planetary data sonification — transforming NASA telemetry (solar wind, planetary ephemeris, space weather) into modulation sources for synthesis and generative sound design. Integrates real-time data pipelines from DSCOVR, JPL Horizons, and NOAA.
 
-### Linux Pro Audio DSP Platforms
-High-performance Linux-based DSP system for network audio, synthesis, and MIDI/OSC control. Architected with **JACK2** audio routing, **Node.js** HTTP/WebSocket API, and real-time OSC protocol integration. Optimized for low-latency professional audio workflows over Gigabit Ethernet.
+### Network DSP Platform
+Open-source platform for offloading professional audio DSP to dedicated Linux servers with sub-4ms network latency. Features 5 oscillator types, dual analog-modeled filters, 40-slot modulation matrix, and bidirectional RTP audio — running 32-64+ voices on commodity hardware. Built with **C++, Swift (AU plugin), JACK2, RTP, SIMD optimization**. Architected for modular expansion (visual patching, user scripting).
 
 ### WordPress Plugin Development
 Custom WordPress plugins for e-commerce, scheduling, and cloud service integrations using WooCommerce, Microsoft Graph API, and payment gateways.
+
+### Self-Hosted MCP Infrastructure
+Dual-cluster AI infrastructure (81 containers, 50 MCP services) powering agentic workflows across personal and client projects. Includes domain-expert knowledge servers, RAG pipelines with ChromaDB, autonomous monitoring agents, and edge compute for camera systems. **Docker, Python, Tailscale mesh networking**.
 
 ---
 
