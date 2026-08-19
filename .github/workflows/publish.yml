@@ -1,0 +1,56 @@
+name: Publish resume
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'resume.md'
+      - 'skills.md'
+      - 'assets/**'
+      - 'templates/**'
+      - 'build.sh'
+      - '.github/workflows/publish.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pandoc and WeasyPrint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            pandoc libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b \
+            libfontconfig1 fonts-liberation
+          python3 -m pip install --upgrade pip
+          python3 -m pip install weasyprint
+
+      - name: Build
+        run: ./build.sh
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

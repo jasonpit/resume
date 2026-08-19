@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>$title$</title>
+$if(description)$
+  <meta name="description" content="$description$" />
+$endif$
+  <link rel="stylesheet" href="resume.css" />
+</head>
+<body>
+
+<nav class="no-print">
+$if(isresume)$
+  <a class="btn" href="Jason_Pittman_Resume.pdf" download>Download PDF</a>
+  <a class="btn btn-secondary" href="skills.html">Full technology index &rarr;</a>
+$else$
+  <a class="btn btn-secondary" href="index.html">&larr; Back to resume</a>
+$endif$
+</nav>
+
+<main>
+$body$
+</main>
+
+</body>
+</html>
