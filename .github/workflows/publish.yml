@@ -39,10 +39,20 @@ jobs:
       - name: Build
         run: ./build.sh
 
-      - name: Upload artifact
+      - name: Upload site artifact (published)
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+
+      # The EU/DK variant carries the Danish language line and the relocation
+      # note. It is deliberately NOT deployed to Pages — download it from this
+      # run's artifacts and send it directly to EU employers.
+      - name: Upload EU variant (not published)
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-eu-variant
+          path: _private/Jason_Pittman_Resume_EU.pdf
+          retention-days: 90
 
   deploy:
     needs: build

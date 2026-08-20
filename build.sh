@@ -1,24 +1,45 @@
 #!/usr/bin/env bash
-# Build the resume site into _site/.
+# Build the resume site into _site/, plus the EU-targeted PDF into _private/.
+#
+#   _site/     published to GitHub Pages (public)
+#   _private/  NOT published — EU variant, collected as a CI artifact
+#
 # Requires: pandoc, python3 + weasyprint.
+# Set PYTHON=/path/to/venv/bin/python if weasyprint lives in a virtualenv.
 set -euo pipefail
 
 cd "$(dirname "$0")"
 
 OUT=_site
-rm -rf "$OUT"
-mkdir -p "$OUT"
+PRIV=_private
+PY="${PYTHON:-python3}"
+
+rm -rf "$OUT" "$PRIV"
+mkdir -p "$OUT" "$PRIV"
 
 cp assets/resume.css "$OUT/resume.css"
+cp assets/resume.css "$PRIV/resume.css"
 
-pandoc resume.md \
-  --from markdown+smart \
-  --to html5 \
-  --template templates/page.html \
-  --metadata title="Jason Pittman — Cloud Security Architect" \
-  --metadata description="Cloud Security Architect at Warner Bros. Discovery. AI and agentic security at enterprise scale, multi-cloud governance." \
-  --metadata isresume=true \
-  -o "$OUT/index.html"
+# --- resume, one HTML per variant -------------------------------------------
+
+render_resume() {
+  local variant="$1" dest="$2" isresume="$3"
+  python3 scripts/variant.py "$variant" < resume.md > "$dest/.resume.md"
+  pandoc "$dest/.resume.md" \
+    --from markdown+smart \
+    --to html5 \
+    --template templates/page.html \
+    --metadata title="Jason Pittman — Cloud Security Architect" \
+    --metadata description="Cloud Security Architect at Warner Bros. Discovery. AI and agentic security at enterprise scale, multi-cloud governance." \
+    ${isresume:+--metadata isresume=true} \
+    -o "$dest/index.html"
+  rm -f "$dest/.resume.md"
+}
+
+render_resume public "$OUT"  yes
+render_resume eu     "$PRIV" ""
+
+# --- technology index (public only) -----------------------------------------
 
 pandoc skills.md \
   --from markdown+smart \
@@ -28,34 +49,48 @@ pandoc skills.md \
   --metadata description="Full inventory of the platforms, tools, and technologies I have worked with." \
   -o "$OUT/skills.html"
 
-# Render the PDF and report how many pages it actually came out to.
-# Set PYTHON=/path/to/venv/bin/python if weasyprint lives in a virtualenv.
-"${PYTHON:-python3}" - <<'PY'
+# --- PDFs, reporting page counts --------------------------------------------
+
+"$PY" - <<'PYEOF'
 from weasyprint import HTML
+import json, pathlib
 
-doc = HTML("_site/index.html").render()
-doc.write_pdf("_site/Jason_Pittman_Resume.pdf")
-with open("_site/.pagecount", "w") as fh:
-    fh.write(str(len(doc.pages)))
-PY
+jobs = [
+    ("_site/index.html",    "_site/Jason_Pittman_Resume.pdf",       "public"),
+    ("_private/index.html", "_private/Jason_Pittman_Resume_EU.pdf", "eu"),
+]
+counts = {}
+for src, dest, name in jobs:
+    doc = HTML(src).render()
+    doc.write_pdf(dest)
+    counts[name] = len(doc.pages)
 
-PAGES=$(cat "$OUT/.pagecount")
-rm -f "$OUT/.pagecount"
+pathlib.Path("_private/.counts.json").write_text(json.dumps(counts))
+PYEOF
 
-echo "Built $OUT — resume PDF is ${PAGES} page(s)."
-if [ "$PAGES" -gt 2 ]; then
-  echo "WARNING: resume is ${PAGES} pages; the target is 2." >&2
-fi
+PUBLIC_PAGES=$("$PY" -c "import json;print(json.load(open('_private/.counts.json'))['public'])")
+EU_PAGES=$("$PY" -c "import json;print(json.load(open('_private/.counts.json'))['eu'])")
+rm -f "$PRIV/.counts.json" "$PRIV/resume.css" "$PRIV/index.html"
 
-# Expose the count to CI if we're running there.
+echo "Built:"
+echo "  $OUT/Jason_Pittman_Resume.pdf        ${PUBLIC_PAGES} page(s)  [published]"
+echo "  $PRIV/Jason_Pittman_Resume_EU.pdf    ${EU_PAGES} page(s)  [not published]"
+
+OVER=0
+for n in "$PUBLIC_PAGES" "$EU_PAGES"; do [ "$n" -gt 2 ] && OVER=1; done
+[ "$OVER" = 1 ] && echo "WARNING: a resume variant exceeds the 2-page target." >&2
+
 if [ -n "${GITHUB_STEP_SUMMARY:-}" ]; then
   {
     echo "### Resume build"
     echo ""
-    if [ "$PAGES" -gt 2 ]; then
-      echo "⚠️ **PDF is ${PAGES} pages** — target is 2. Trim \`resume.md\` or tighten print CSS."
-    else
-      echo "✅ **PDF is ${PAGES} page(s)** — within the 2-page target."
-    fi
+    echo "| variant | pages | published |"
+    echo "|---|---|---|"
+    echo "| public | ${PUBLIC_PAGES} | yes — GitHub Pages |"
+    echo "| EU | ${EU_PAGES} | no — download from this run's artifacts |"
+    echo ""
+    [ "$OVER" = 1 ] && echo "⚠️ A variant exceeds the 2-page target." || echo "✅ Both variants within the 2-page target."
   } >> "$GITHUB_STEP_SUMMARY"
 fi
+
+exit 0

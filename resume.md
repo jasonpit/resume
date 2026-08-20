@@ -2,7 +2,12 @@
 
 **Cloud Security Architect | AI & Agentic Security at Enterprise Scale | Multi-Cloud Governance**
 
+<!--only:public-->
 Los Angeles, CA
+<!--/only:public-->
+<!--only:eu-->
+Los Angeles, CA → Copenhagen
+<!--/only:eu-->
 **+1 213-590-2801** | **jasonpit@mac.com** |
 [LinkedIn](https://www.linkedin.com/in/jason-pittman-a1b34a1a/) |
 [GitHub](https://github.com/jasonpit)
@@ -118,8 +123,16 @@ My own consultancy: a small portfolio of long-established client relationships, 
 
 ## Languages
 
+<!--only:public-->
 **English** native · **Korean** listening comprehension · **Spanish** basic
+<!--/only:public-->
+<!--only:eu-->
+**English** native · **Danish** actively learning (A1) · **Korean** listening comprehension · **Spanish** basic
+<!--/only:eu-->
 
 ---
 
+<!--only:eu-->
+Relocating to Copenhagen with my family for the long term — a deliberate decision after several years researching life and education in Denmark.
+<!--/only:eu-->
 Outside work: music and audio engineering, cooking, skiing, and time outdoors.
