@@ -45,7 +45,7 @@ Cloud Security Architect at Warner Bros. Discovery — one of four security arch
 
 **Senior Cloud Engineer / Solutions Engineering** · *Apr 2021 – Mar 2026*
 
-* **Led Azure technical strategy for the Warner Bros. corporate divestiture** as Azure SME and primary liaison between Cloud Engineering, Corporate Security, and Microsoft — greenfield Landing Zones, management group hierarchy, subscription vending, network topology, and the IAM/PIM/Entra ID strategy across hundreds of subscriptions and seven tenants.
+* **Led Azure technical strategy for the Warner Bros. corporate divestiture** as Azure SME and primary liaison between Cloud Engineering, Corporate Security, and Microsoft — greenfield Landing Zones, management group hierarchy, subscription vending, network topology, and the IAM/PIM/Entra ID strategy across hundreds of subscriptions and nine tenants.
 
 * **Led Cloud Infrastructure and Identity platform migrations for M&A activity** — Azure tenant integration, Entra ID consolidation, and identity and access cutover across acquired and divested entities.
 
